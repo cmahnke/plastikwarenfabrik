@@ -30,3 +30,6 @@ pnpm-lock.yaml
 purgecss.config.js
 package.json
 node_modules/
+archetypes/
+docs/
+static/fonts/

@@ -3,8 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
-    {{ $style := resources.Get "scss/style.scss" | css.Sass | resources.Minify }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ partial "html/head/meta.html" . }}
+    {{- partial "html/head/style.html" (dict "context" .) -}}
+    {{/*
+    {{- partial "html/head/script.html" (dict "context" . "js" (partial "html/head/iiif-js.html" .)) -}}
+    */}}
+    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32.png" | absURL }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16.png" | absURL }}" sizes="16x16">
+    {{- partial "html/head/page-scripts.html" . -}}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{- partial "data/schema.org.html" . -}}
 </head>
 <body>
     <div class="main-container">
