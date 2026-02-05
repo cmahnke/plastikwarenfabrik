@@ -1,7 +1,17 @@
-baseURL = '/'
-languageCode = 'de-de'
+baseURL = 'https://plastikwarenfabrik.projektemacher.org/'
+languageCode = "de"
+defaultcontentlanguage = "de"
+copyright = "Christian Mahnke"
 title = "Klaus-Ingo's Plastikwarenfabrik"
 theme = ["slop99", "projektemacher-base"]
+publishDir = "docs"
+canonifyurls = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+enableGitInfo = true
+preserveTaxonomyNames = true
+enableRobotsTXT = true
+timeout = "120s"
 
 [[menus.main]]
   name = "Vibe Cooking"

@@ -134,10 +134,10 @@ aside {
         display: block;
         background-color: $blue;
         
-        border-top: 3px solid $white;
-        border-left: 3px solid $white;
-        border-right: 3px solid $black;
-        border-bottom: 3px solid $black;
+        border-top: 2px solid $white;
+        border-left: 2px solid $white;
+        border-right: 2px solid $black;
+        border-bottom: 2px solid $black;
         border-radius: 16px;
         
         color: $white;
@@ -164,10 +164,10 @@ aside {
 
         &:active {
             /* Eingedrückt-Effekt: Rahmenfarben umkehren */
-            border-top: 3px solid $black;
-            border-left: 3px solid $black;
-            border-right: 3px solid $white;
-            border-bottom: 3px solid $white;
+            border-top: 2px solid $black;
+            border-left: 2px solid $black;
+            border-right: 2px solid $white;
+            border-bottom: 2px solid $white;
             
             transform: translate(2px, 2px); /* Physisches Verschieben */
         }
@@ -245,4 +245,12 @@ hr {
             }
         }
     }
+}
+
+.list {
+  .post {
+
+    
+  }
+
 }
