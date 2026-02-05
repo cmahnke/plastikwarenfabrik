@@ -1,18 +1,21 @@
 <aside>
     <div class="nav-header">.: NAVIGATION :.</div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">.: MENÜ AUFKLAPPEN :.</label>
+
     <nav class="retro-menu">
         <a href="{{ .Site.BaseURL }}" class="menu-btn">Startseite</a>
-        {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="menu-btn">{{ .Name }}</a>
-        {{ end }}
+        {{- range .Site.Sections -}}
+          {{- if ne .Params.displayinlist false -}}
+            <a href="{{ .Permalink }}" class="menu-btn">{{ .Title }}</a>
+          {{- end -}}
+        {{- end -}}
     </nav>
     
     <br>
     <div class="promo-box">
-        <p class="blink">NEU!!!</p>
-        <p>Meine Links</p>
-    </div>
-    <div class="promo-box">
-      <img src="/images/github.gif" alt="GitHub">
+      <p class="blink">NEU!!!</p>
+      <a href="https://github.com/cmahnke" target="_blank"><img src="/images/github.webp" alt="GitHub"></a>
+      <a href="https://validator.w3.org/nu/?doc={{ .Permalink }}" target="_blank"><img src="/images/valid-html5.webp" alt="Valides HTML5"></a>
     </div>
 </aside>

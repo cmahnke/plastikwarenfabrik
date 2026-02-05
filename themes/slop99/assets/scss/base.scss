@@ -124,6 +124,11 @@ aside {
         padding-bottom: 5px;
     }
 
+    /* Checkbox Hack für Mobile Menu */
+    .nav-toggle, .nav-toggle-label {
+        display: none;
+    }
+
     .retro-menu {
         display: flex;
         flex-direction: column;
@@ -249,8 +254,68 @@ hr {
 
 .list {
   .post {
-
-    
+    &:not(:last-child):after {
+      content: "";
+      display: block;
+      height: 4px;
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red, orange, yellow, green, blue, indigo, violet, red);
+      background-size: 200% auto;
+      animation: rainbow-move 4s linear infinite;
+      margin: 20px 0;
+    }
   }
+}
 
+@keyframes rainbow-move {
+  0% { background-position: 200% 0; }
+  100% { background-position: 0% 0; }
+}
+
+/* Responsive Design für Handys */
+@media (max-width: 820px) {
+    body {
+        padding: 0;
+    }
+
+    .main-container {
+        width: 100%;
+        display: block; /* Stacking von Header, Sidebar, Main */
+        border: none;
+        box-shadow: none;
+    }
+
+    aside {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px groove $white;
+    }
+
+    header h1 {
+        font-size: 2em;
+        text-shadow: 1px 1px 0 $black;
+    }
+
+    /* Mobile Menu Logic */
+    aside .nav-toggle-label {
+        display: block;
+        background-color: $blue;
+        color: $white;
+        border: 2px outset $white;
+        padding: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    aside .nav-toggle-label:active {
+        border-style: inset;
+    }
+
+    aside .retro-menu {
+        display: none;
+    }
+
+    aside .nav-toggle:checked ~ .retro-menu {
+        display: flex;
+    }
 }

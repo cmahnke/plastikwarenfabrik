@@ -1,3 +1,11 @@
+import { fairyDustCursor } from "cursor-effects";
+
+window.addEventListener("load", (event) => {
+  new fairyDustCursor();
+});
+
+
+/*
 const text: string = "Klaus-Ingo's cooler Cursor";
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -7,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     cursorText.style.color = "red";
     cursorText.style.fontFamily = "Comic Sans MS, sans-serif";
     cursorText.style.fontWeight = "bold";
-    cursorText.style.fontSize = "14px";
+    cursorText.style.fontSize = "16px";
     cursorText.style.pointerEvents = "none"; // Klicks gehen durch den Text durch
     cursorText.style.zIndex = "10000";
     cursorText.style.textShadow = "2px 2px yellow";
@@ -18,3 +26,4 @@ document.addEventListener("DOMContentLoaded", function() {
         cursorText.style.top = (e.pageY + 15) + "px";
     });
 });
+*/

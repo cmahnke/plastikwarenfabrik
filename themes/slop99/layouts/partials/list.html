@@ -1,24 +1,22 @@
 <div class="list">
-    <div class="post">
-    {{- $pages := .Pages -}}
-    {{- if .IsHome -}}
-      {{- $pages = .Site.RegularPages -}}
-    {{- end -}}
-    {{- $pages = where $pages "Params.metaPage" "!=" true -}}
-    {{- $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
-    {{- range $paginator.Pages -}}
-      {{- if templates.Exists "_partials/li.html" -}}
-        {{- partial "li.html" . -}}
-      {{- else -}}
-        {{- warnf "[layouts/_default/list.html] Missing li.html template for %s" .RelPermalink -}}
-        <div class="post">
-          <div class="content">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </div>
+  {{- $pages := .Pages -}}
+  {{- if .IsHome -}}
+    {{- $pages = .Site.RegularPages -}}
+  {{- end -}}
+  {{- $pages = where $pages "Params.metaPage" "!=" true -}}
+  {{- $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
+  {{- range $paginator.Pages -}}
+    {{- if templates.Exists "_partials/li.html" -}}
+      {{- partial "li.html" . -}}
+    {{- else -}}
+      {{- warnf "[layouts/_default/list.html] Missing li.html template for %s" .RelPermalink -}}
+      <div class="post">
+        <div class="content">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </div>
-      {{- end -}}
+      </div>
     {{- end -}}
-    </div>
+  {{- end -}}
 </div>
 {{ if or $paginator.HasPrev $paginator.HasNext -}}
 <div class="pagination">
