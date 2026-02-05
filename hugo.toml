@@ -1,0 +1,9 @@
+baseURL = '/'
+languageCode = 'de-de'
+title = "Klaus-Ingo's Plastikwarenfabrik"
+theme = ["slop99", "projektemacher-base"]
+
+[[menus.main]]
+  name = "Vibe Cooking"
+  url = "/vibe-cooking/"
+  weight = 20

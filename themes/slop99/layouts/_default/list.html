@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+    
+    {{ range .Pages }}
+    <div class="retro-box">
+        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <small>{{ i18n "written_on" }} {{ (.Date.AddDate -27 0 0).Format "02.01.2006" }}</small>
+        <p>{{ .Summary }}</p>
+        <center>
+            <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
+        </center>
+    </div>
+    <hr>
+    {{ end }}
+    <center>
+        <img src="/images/underconstruction1.gif" alt="Under Construction">
+    </center>
+{{ end }}

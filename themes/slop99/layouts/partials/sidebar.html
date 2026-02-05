@@ -1,0 +1,15 @@
+<aside>
+    <div class="nav-header">.: NAVIGATION :.</div>
+    <nav class="retro-menu">
+        <a href="{{ .Site.BaseURL }}" class="menu-btn">Startseite</a>
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="menu-btn">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+    
+    <br>
+    <div class="promo-box">
+        <p class="blink">NEU!!!</p>
+        <p>Meine Links</p>
+    </div>
+</aside>

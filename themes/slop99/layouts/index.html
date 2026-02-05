@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <div class="retro-box">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+    </div>
+
+    <h3>Neueste Nachrichten:</h3>
+    {{ range .Site.RegularPages }}
+    <div class="retro-box">
+        <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+        <small>{{ (.Date.AddDate -27 0 0).Format "02.01.2006" }}</small>
+    </div>
+    {{ end }}
+{{ end }}

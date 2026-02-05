@@ -1,0 +1,38 @@
+{{ define "main" }}
+    <article class="retro-box">
+        <h2 style="text-decoration: underline;">{{ .Title }}</h2>
+        <small><i>{{ i18n "written_by_webmaster_on" }} {{ (.Date.AddDate -27 0 0).Format "02.01.2006" }}</i></small>
+        <br><br>
+        
+        <div class="content">
+            {{ .Content }}
+        </div>
+        
+        <br>
+        <center>
+            <img src="https://web.archive.org/web/20091026233246/http://geocities.com/Area51/Corridor/6383/line1.gif" alt="Divider">
+        </center>
+        <br>
+
+        <h3 align="center" style="background-color: #000080; border: 2px outset white; padding: 5px; color: yellow;">{{ i18n "image_gallery" }}</h3>
+        
+        <div class="gallery-container">
+            {{ range .Resources.ByType "image" }}
+            <div class="gallery-item">
+                <a href="{{ .RelPermalink }}" target="_blank">
+                    <img src="{{ .RelPermalink }}" alt="{{ .Name }}">
+                </a>
+                <br>
+                <font size="-1" color="#00FFFF">{{ .Name }}</font>
+            </div>
+            {{ end }}
+        </div>
+
+        <br>
+        <center>
+            <hr style="width: 50%;">
+            <img src="/images/underconstruction1.gif" alt="Under Construction"><br><br>
+            <a href="{{ .Site.BaseURL }}">{{ i18n "back_to_home" }}</a>
+        </center>
+    </article>
+{{ end }}
