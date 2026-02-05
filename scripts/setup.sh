@@ -11,6 +11,8 @@ for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
     bash "$SCRIPT"
 done
 
+mkdir -p static/images/
+
 # Generate Previews
 TARGETFORMAT=png ./themes/projektemacher-base/scripts/preview.sh
 
