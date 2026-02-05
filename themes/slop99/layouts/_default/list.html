@@ -2,6 +2,13 @@
     <h2>{{ .Title }}</h2>
     {{ .Content }}
     
+    {{ if .IsHome }}
+      {{ partial "home.html" . }}
+    {{ else }}
+      {{ partial "list.html" . }}
+    {{ end }}
+
+    {{/*
     {{ range .Pages }}
     <div class="retro-box">
         <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -16,4 +23,5 @@
     <center>
         <img src="/images/underconstruction1.gif" alt="Under Construction">
     </center>
+    */}}
 {{ end }}

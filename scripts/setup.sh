@@ -2,6 +2,8 @@
 
 set -e
 
+mkdir -p static/images/
+
 echo "Generated images:"
 ls -l static/images
 
@@ -10,8 +12,6 @@ for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
     echo "Running $SCRIPT"
     bash "$SCRIPT"
 done
-
-mkdir -p static/images/
 
 # Generate Previews
 TARGETFORMAT=png ./themes/projektemacher-base/scripts/preview.sh
