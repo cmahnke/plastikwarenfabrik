@@ -15,10 +15,10 @@
     {{- partial "data/schema.org.html" . -}}
 </head>
 <body>
-    <div class="main-container">
+    <div class="main-container table">
         {{ partial "header.html" . }}
         {{ partial "sidebar.html" . }}
-        <main>
+        <main class="td">
             {{ block "main" . }}{{ end }}
         </main>
         {{ partial "footer.html" . }}

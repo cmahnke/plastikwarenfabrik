@@ -9,3 +9,5 @@
 
 # Effects
 * https://tholman.com/cursor-effects/
+* https://www.html-seminar.de/texteffekt-css3-brennende-schrift.htm
+* https://github.com/filipedeschamps/doom-fire-algorithm

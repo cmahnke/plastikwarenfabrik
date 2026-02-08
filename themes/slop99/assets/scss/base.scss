@@ -1,6 +1,8 @@
 @use "sass:color";
 @use "npm-fonts/comic-relief" as *;
 
+@use "retro" as *;
+
 $black: #000000;
 $yellow: #FFFF00;
 $cyan: #00FFFF; // Neon Blue
@@ -36,6 +38,17 @@ body {
     color: $black;
 }
 
+article h3 {
+  background-color: #000080;
+  border: 2px outset white;
+  padding: 5px;
+  color: yellow;
+}
+
+article.retro-box .meta {
+    text-align: right;
+}
+
 a {
     color: $blue;
     text-decoration: underline;
@@ -56,28 +69,129 @@ a {
     width: 800px;
     max-width: 100%;
     margin: 0 auto;
-    background-color: $grey;
-    border: 3px outset $white;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 5px 5px 0px rgba(0,0,0,0.5);
 }
 
 header {
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    border-bottom: 2px groove $white;
-    padding: 20px;
-    background-color: $navy;
+    background-color: $grey;
 
     h1 {
         font-family: $heading-font;
-        color: $yellow;
-        text-shadow: 2px 2px $black;
+        
         font-size: 3em;
         margin: 0;
-    }
+        margin-top: 2rem;
+        margin-bottom: 1.6rem;
+        /*
+        color: $yellow;
+        animation: fire 1.5s linear infinite;
+        animation: burn 0.7s infinite steps(1);
+        */
+        
+        /*
+        letter-spacing: -1.2px;
+        line-height: 3;
+        background-clip: text;
+        -webkit-background-clip: text;
+
+        mask-image: linear-gradient(
+          to top,
+          black 0%,
+          black 65%,
+          transparent 78%,
+          transparent 100%
+        );
+
+
+        animation: fire 0.8s infinite steps(1);
+        */
+      }
+}
+
+@keyframes fire {
+  0% {
+    background-image:
+      linear-gradient(
+        90deg,
+        #4e342e 0%,
+        #bf360c 20%,
+        #f44336 40%,
+        #ff9800 60%,
+        #fff176 75%,
+        #ffffff 82%,
+        #fff176 88%
+      );
+    background-size: 140% 100%;
+    background-position: 0% 100%;
+  }
+
+  25% {
+    background-image:
+      linear-gradient(
+        90deg,
+        #3e2723 0%,
+        #d84315 22%,
+        #ff5722 42%,
+        #ffa726 62%,
+        #fff59d 76%,
+        #ffffff 82%,
+        #fff59d 88%
+      );
+    background-size: 140% 100%;
+    background-position: 10% 100%;
+  }
+
+  50% {
+    background-image:
+      linear-gradient(
+        90deg,
+        #5d4037 0%,
+        #bf360c 20%,
+        #f44336 40%,
+        #ffb300 60%,
+        #fff176 74%,
+        #ffffff 82%,
+        #fff176 88%
+      );
+    background-size: 140% 100%;
+    background-position: 20% 100%;
+  }
+
+  75% {
+    background-image:
+      linear-gradient(
+        90deg,
+        #4e342e 0%,
+        #e64a19 22%,
+        #ff7043 42%,
+        #ffa000 62%,
+        #fff9c4 76%,
+        #ffffff 82%,
+        #fff9c4 88%
+      );
+    background-size: 140% 100%;
+    background-position: 10% 100%;
+  }
+
+  100% {
+    background-image:
+      linear-gradient(
+        90deg,
+        #4e342e 0%,
+        #bf360c 20%,
+        #f44336 40%,
+        #ff9800 60%,
+        #fff176 75%,
+        #ffffff 82%,
+        #fff176 88%
+      );
+    background-size: 140% 100%;
+    background-position: 0% 100%;
+  }
 }
 
 .marquee-container {
@@ -86,25 +200,25 @@ header {
     overflow: hidden;
     white-space: nowrap;
     background-color: $black;
-    border: 2px inset $dark-grey;
+    /* border: 2px inset $dark-grey; */
     margin-bottom: 15px;
-}
 
-.marquee-content {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee 15s linear infinite;
-    color: $green;
-    font-family: "Courier New", monospace;
-    font-weight: bold;
-    font-size: 1.2em;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+  .marquee-content {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 15s linear infinite;
+      color: $green;
+      font-family: "Courier New", monospace;
+      font-weight: bold;
+      font-size: 1.2em;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
 
-@keyframes marquee {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
+  @keyframes marquee {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+  }
 }
 
 aside {
@@ -124,7 +238,6 @@ aside {
         padding-bottom: 5px;
     }
 
-    /* Checkbox Hack für Mobile Menu */
     .nav-toggle, .nav-toggle-label {
         display: none;
     }
@@ -133,17 +246,23 @@ aside {
         display: flex;
         flex-direction: column;
         gap: 8px;
+        align-items: center;
     }
 
     .menu-btn {
         display: block;
         background-color: $blue;
+        height: calc(31px * (2 / 3));
+        width: calc(88px * (1 + (2 / 3)));
         
         border-top: 2px solid $white;
         border-left: 2px solid $white;
         border-right: 2px solid $black;
         border-bottom: 2px solid $black;
         border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
         color: $white;
         text-decoration: none;
@@ -161,6 +280,8 @@ aside {
         &:nth-child(4n+2) { background-color: $green; color: $black; text-shadow: none; }
         &:nth-child(4n+3) { background-color: $blue; }
         &:nth-child(4n+4) { background-color: $orange; }
+        &:nth-child(4n+5) { background-color: $orange; }
+        &:nth-child(4n+6) { background-color: $orange; }
 
         &:hover {
             cursor: pointer;
@@ -168,7 +289,6 @@ aside {
         }
 
         &:active {
-            /* Eingedrückt-Effekt: Rahmenfarben umkehren */
             border-top: 2px solid $black;
             border-left: 2px solid $black;
             border-right: 2px solid $white;
@@ -183,6 +303,9 @@ aside {
         padding: 5px;
         background-color: $black;
         margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         
         .blink {
             color: $red;
@@ -193,6 +316,11 @@ aside {
         p {
             color: $yellow;
             margin: 5px 0 0 0;
+        }
+
+        img {
+          margin-top: .8rem;
+
         }
     }
 }
@@ -230,8 +358,6 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: $black;
-    border: 2px inset $dark-grey;
     padding: 10px;
 
     .gallery-item {
@@ -271,7 +397,6 @@ hr {
   100% { background-position: 0% 0; }
 }
 
-/* Responsive Design für Handys */
 @media (max-width: 820px) {
     body {
         padding: 0;
@@ -279,7 +404,7 @@ hr {
 
     .main-container {
         width: 100%;
-        display: block; /* Stacking von Header, Sidebar, Main */
+        display: block;
         border: none;
         box-shadow: none;
     }
@@ -292,10 +417,9 @@ hr {
 
     header h1 {
         font-size: 2em;
-        text-shadow: 1px 1px 0 $black;
+        /*text-shadow: 1px 1px 0 $black;*/
     }
 
-    /* Mobile Menu Logic */
     aside .nav-toggle-label {
         display: block;
         background-color: $blue;
@@ -317,5 +441,31 @@ hr {
 
     aside .nav-toggle:checked ~ .retro-menu {
         display: flex;
+    }
+}
+
+/* Lightbox (CSS only) */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: zoom-out;
+
+    &:target {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        max-width: 90%;
+        max-height: 90%;
+        border: 5px solid $white;
+        box-shadow: 0 0 20px $black;
     }
 }
