@@ -11,3 +11,14 @@
 * https://tholman.com/cursor-effects/
 * https://www.html-seminar.de/texteffekt-css3-brennende-schrift.htm
 * https://github.com/filipedeschamps/doom-fire-algorithm
+
+# GeoCitise
+* https://geocities.restorativland.org/
+
+# Web design
+* https://www.webdesignmuseum.org/
+
+# CSS
+* https://github.com/jdan/98.css
+* https://github.com/matt-auckland/retro-css
+* https://github.com/sakofchit/system.css
