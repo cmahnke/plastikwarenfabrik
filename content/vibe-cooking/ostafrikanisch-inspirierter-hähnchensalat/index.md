@@ -2,12 +2,9 @@
 title: Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing
 ----
 
-Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing
------------------------------------------------------------------
-
 Dieser Salat kombiniert gebratenes Hähnchen, geröstete Süßkartoffeln, Karotten und Spargel mit dem herzhaften Geschmack eines Mango-Senf-Dressings, für ein wirklich einzigartiges Geschmackserlebnis.
 
-**Zutaten für 4 Portionen:**
+## Zutaten für 4 Portionen:
 
 **Für das gebratene Hähnchen:**
 
@@ -22,7 +19,7 @@ Dieser Salat kombiniert gebratenes Hähnchen, geröstete Süßkartoffeln, Karott
 *   Salz und Pfeffer nach Geschmack
     
 
-**Für die gerösteten Süßkartoffeln & Gemüse:**
+### Für die gerösteten Süßkartoffeln & Gemüse:
 
 *   1 große **Süßkartoffel**, geschält und gewürfelt (ca. 2 cm Kantenlänge)
     
@@ -35,7 +32,7 @@ Dieser Salat kombiniert gebratenes Hähnchen, geröstete Süßkartoffeln, Karott
 *   Salz und eine Prise Cayennepfeffer (optional)
     
 
-**Für den Salat:**
+### Für den Salat:
 
 *   1 reife **Mango**, geschält und gewürfelt
     
@@ -71,7 +68,7 @@ Dieser Salat kombiniert gebratenes Hähnchen, geröstete Süßkartoffeln, Karott
 *   Salz und Pfeffer nach Geschmack
     
 
-**Zubereitung:**
+## Zubereitung:
 
 1.  **Gemüse rösten:** Heize den Backofen auf **200°C Ober-/Unterhitze** vor. Vermische die Süßkartoffelwürfel, Karottenscheiben und Spargelstücke mit dem Öl, Salz und Cayennepfeffer. Verteile sie auf einem Backblech und backe sie ca. **20-25 Minuten**, bis das Gemüse weich und leicht gebräunt ist. Wende es einmal währenddessen. Lass das Gemüse etwas abkühlen.
     
