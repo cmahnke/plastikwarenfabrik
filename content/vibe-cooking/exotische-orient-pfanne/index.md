@@ -2,21 +2,9 @@
 title: "Exotische Orient-Pfanne: Honey-Glaze Hack mit Röst-Blumenkohl"
 ---
 
-Exotische Orient-Pfanne: Honey-Glaze Hack mit Röst-Blumenkohl
--------------------------------------------------------------
-
 Dieses Rezept trennt die Garprozesse von Gemüse und Fleisch, um maximale Textur (knusprige Röschen) und Saftigkeit (glasiertes Fleisch) zu garantieren.
 
-### Die Fakten (Technik & Stabilität)
-
-*   **Stabilität:** Hoch. Durch das separate Rösten im Ofen wässert der Blumenkohl nicht nach.
-    
-*   **Textur:** Kontrast zwischen karamellisierten Rändern der Röschen und klebrig-saftigem Fleisch.
-    
-*   **Marketing vs. Realität:** Honig/Reissirup ersetzt hier nicht nur Zucker, sondern dient physikalisch als Emulgator für die Fleischsäfte.
-    
-
-### Zutaten
+## Zutaten
 
 *   **Gemüse:** 1 mittelgroßer Blumenkohl (in mundgerechte Röschen), 2 Süßkartoffeln (2cm Würfel), 3 EL Olivenöl, Salz, 1 TL Kurkuma.
     
@@ -27,7 +15,7 @@ Dieses Rezept trennt die Garprozesse von Gemüse und Fleisch, um maximale Textur
 *   **Topping:** Frische Petersilie, geröstete Pinienkerne oder Mandelstifte.
     
 
-### Zubereitung
+## Zubereitung
 
 **1\. Das Röst-Gemüse (Ofen):**
 

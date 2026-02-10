@@ -2,7 +2,7 @@
 title: Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing
 ----
 
-### Zutaten
+## Zutaten
 
 *   **500g Grünkohl:** Frisch, geputzt und in mundgerechte Streifen geschnitten.
 
@@ -23,7 +23,7 @@ title: Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing
 *   **Finish:** Saft von 1 Bio-Limette.
 
 
-### Schritt-für-Schritt-Anleitung
+## Schritt-für-Schritt-Anleitung
 
 1.  **Garnelen-Searing:**Erhitze 1 EL Kokosöl in einer großen Pfanne oder einem Wok. Brate die Garnelen mit einer Prise Salz und etwas Knoblauch für ca. **90 Sekunden pro Seite** an, bis sie gerade so rosa sind. Nimm sie sofort aus der Pfanne und stelle sie beiseite. (Sie garen später im heißen Kohl fertig).
 
