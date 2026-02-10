@@ -1,6 +1,7 @@
 ---
 title: Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing
-----
+date: 2026-01-27T15:33:09+02:00
+---
 
 ## Zutaten
 

@@ -26,7 +26,7 @@ a:visited { color: #551a8b; }
   border: 2px solid;
   border-color: #ffffff #808080 #808080 #ffffff;
 
-  .td, 
+  .td,
   .th {
       padding: 1px;
       border: 1px solid;
@@ -40,22 +40,4 @@ input[type="text"], textarea {
     border-color: #808080 #ffffff #ffffff #808080;
     background-color: #ffffff;
     font-family: sans-serif;
-}
-
-body {
-    position: relative;
-
-    &::before {
-        content: " ";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background: linear-gradient(180deg, #fff0 70%, rgb(0 0 0 / .25) 50%), linear-gradient(180deg, rgb(255 0 0 / .06), rgb(0 255 0 / .02));
-        z-index: 1;
-        background-size: .1% 2px, 2px 50%;
-        pointer-events: none;
-    }
 }

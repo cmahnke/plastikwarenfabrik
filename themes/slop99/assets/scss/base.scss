@@ -28,10 +28,11 @@ body {
     font-family: $text-font;
     margin: 0;
     padding: 10px;
+    min-height: 100vh;
 }
 
 .retro-box {
-    background-color: $white;
+    /*background-color: $white;*/
     border: 2px inset $dark-grey;
     padding: 15px;
     margin-bottom: 20px;
@@ -81,7 +82,7 @@ header {
 
     h1 {
         font-family: $heading-font;
-        
+
         font-size: 3em;
         margin: 0;
         margin-top: 2rem;
@@ -91,7 +92,7 @@ header {
         animation: fire 1.5s linear infinite;
         animation: burn 0.7s infinite steps(1);
         */
-        
+
         /*
         letter-spacing: -1.2px;
         line-height: 3;
@@ -254,7 +255,7 @@ aside {
         background-color: $blue;
         height: calc(31px * (2 / 3));
         width: calc(88px * (1 + (2 / 3)));
-        
+
         border-top: 2px solid $white;
         border-left: 2px solid $white;
         border-right: 2px solid $black;
@@ -263,14 +264,14 @@ aside {
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
         color: $white;
         text-decoration: none;
         padding: 8px;
         font-family: "MS Sans Serif", "Geneva", sans-serif;
         font-weight: bold;
         font-size: 14px;
-        
+
         background-image: none;
         box-shadow: none;
         text-shadow: 1px 1px 0 #000;
@@ -293,7 +294,7 @@ aside {
             border-left: 2px solid $black;
             border-right: 2px solid $white;
             border-bottom: 2px solid $white;
-            
+
             transform: translate(2px, 2px); /* Physisches Verschieben */
         }
     }
@@ -306,13 +307,13 @@ aside {
         display: flex;
         flex-direction: row;
         align-items: center;
-        
+
         .blink {
             color: $red;
             font-weight: bold;
             margin: 0;
         }
-        
+
         p {
             color: $yellow;
             margin: 5px 0 0 0;
