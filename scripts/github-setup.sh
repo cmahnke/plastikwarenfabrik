@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 CTX_PATH="$(dirname $(realpath $0))"
 
 $CTX_PATH/../themes/projektemacher-base/scripts/github/jxl-0.11.1.sh
