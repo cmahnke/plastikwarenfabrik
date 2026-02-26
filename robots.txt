@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /privacy/
+
+Sitemap: https://plastikwarenfabrik.projektemacher.org/sitemap.xml
+
+
