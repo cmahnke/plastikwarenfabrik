@@ -1,19 +1,23 @@
 <h3 align="center">{{ i18n "image_gallery" }}</h3>
 
 <div class="gallery-container table">
-    {{ range .Resources.ByType "image" }}
-      {{ $id := printf "lb-%s" .Name | anchorize }}
-      <div class="gallery-item td">
-          <a href="#{{ $id }}">
-              <img src="{{ .RelPermalink }}" alt="{{ .Name }}">
-          </a>
-          <br>
-          <font size="-1" color="#00FFFF">{{ .Name }}</font>
-      </div>
-      {{ with .Process "webp q80" }}
-        <a href="#_" class="lightbox" id="{{ $id }}">
-            <img src="{{ .RelPermalink }}" alt="{{ .Name }}">
-        </a>
-      {{ end }}
-    {{ end }}
+  {{ range .Resources.ByType "image" }}
+    {{ $id := printf "lb-%s" .Name | anchorize }}
+    {{- $name := .Name -}}
+    <div class="gallery-item td">
+      <a href="#{{ $id }}">
+        {{- with .Resize "resize 400x webp q80" -}}
+          <img src="{{ .RelPermalink }}" alt="{{ $name }}">
+        {{- end -}}
+      </a>
+      <br>
+      <font size="-1" color="#00FFFF">{{ $name }}</font>
+    </div>
+
+    {{- with .Process "webp q80" -}}
+      <a href="#_" class="lightbox" id="{{ $id }}">
+          <img src="{{ .RelPermalink }}" alt="{{ $name }}">
+      </a>
+    {{- end -}}
+  {{- end -}}
 </div>
