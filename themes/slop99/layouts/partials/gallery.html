@@ -10,8 +10,10 @@
         <br>
         <font size="-1" color="#00FFFF">{{ .Name }}</font>
     </div>
-    <a href="#_" class="lightbox" id="{{ $id }}">
-        <img src="{{ .RelPermalink }}" alt="{{ .Name }}">
-    </a>
+    {{ with .Process "webp q80" }}
+      <a href="#_" class="lightbox" id="{{ $id }}">
+          <img src="{{ .RelPermalink }}" alt="{{ .Name }}">
+      </a>
+    {{ end }}
     {{ end }}
 </div>
