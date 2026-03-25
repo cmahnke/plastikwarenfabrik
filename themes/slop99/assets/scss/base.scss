@@ -61,9 +61,9 @@ a {
 
     &:hover {
         color: $red;
-        background-color: $yellow;
         text-decoration: none;
         cursor: pointer;
+        background-color: $yellow;
     }
 }
 
@@ -381,6 +381,8 @@ hr {
 }
 
 .list {
+  margin-bottom: 1rem;
+
   .post {
     &:not(:last-child):after {
       content: "";
@@ -471,4 +473,10 @@ hr {
         border: 5px solid $white;
         /* box-shadow: 0 0 20px $black; */
     }
+}
+
+a.lightbox {
+  &:hover {
+    background-color: black;
+  }
 }
