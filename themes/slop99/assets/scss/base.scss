@@ -350,6 +350,7 @@ aside {
     padding: 1rem !important;
     color: $black;
     box-sizing: border-box;
+    flex-grow: 1;
   }
 
   h1, h2, h3 {
@@ -445,31 +446,49 @@ hr {
   100% { background-position: 0% 0; }
 }
 
-@media (max-width: 820px) {
-    body {
-        padding: 0;
+@media (max-width: 800px) {
+  body {
+    padding: 0;
+  }
+
+  .main-container {
+    aside {
+      width: 170px;
+    }
+
+    main {
+      max-width: calc(100% - 170px);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+    h2 {
+      font-size: 2em;
+    }
+
+    h3 {
+      font-size: 1.6em;
     }
 
     .main-container {
-        flex: 1;
-        width: 100%;
-        display: block;
-        border: none;
-        box-shadow: none;
+      flex: 1;
+      display: block;
+      border: none;
+      box-shadow: none;
+    }
+
+    main {
+      width: 100% !important;
+      max-width: unset !important;
     }
 
     aside {
-        width: 100%;
-        border-right: none;
-        border-bottom: 2px groove $white;
-    }
+      width: 100% !important;
+      border-right: none;
+      border-bottom: 2px groove $white;
 
-    header h1 {
-        font-size: 2em;
-        /*text-shadow: 1px 1px 0 $black;*/
-    }
-
-    aside .nav-toggle-label {
+      .nav-toggle-label {
         display: block;
         background-color: $blue;
         color: $white;
@@ -478,19 +497,26 @@ hr {
         cursor: pointer;
         font-weight: bold;
         margin-bottom: 10px;
-    }
+      }
 
-    aside .nav-toggle-label:active {
+      .nav-toggle-label:active {
         border-style: inset;
-    }
+      }
 
-    aside .retro-menu {
+      .retro-menu {
         display: none;
+      }
+
+      .nav-toggle:checked ~ .retro-menu {
+        display: flex;
+      }
     }
 
-    aside .nav-toggle:checked ~ .retro-menu {
-        display: flex;
+    header h1 {
+      font-size: 2.4em;
+        /*text-shadow: 1px 1px 0 $black;*/
     }
+
 }
 
 /* Lightbox (CSS only) */
