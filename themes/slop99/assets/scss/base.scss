@@ -37,9 +37,11 @@ body {
 }
 
 .retro-box {
+  /*
   border: 2px inset $dark-grey;
   padding: 15px;
   margin-bottom: 20px;
+  */
   color: $black;
 }
 
@@ -292,8 +294,8 @@ aside {
         &:nth-child(4n+1) { background-color: $red; }
         &:nth-child(4n+2) { background-color: $green; color: $black; text-shadow: none; }
         &:nth-child(4n+3) { background-color: $blue; }
-        &:nth-child(4n+4) { background-color: $orange; }
-        &:nth-child(4n+5) { background-color: $orange; }
+        &:nth-child(4n+4) { background-color: $teal; }
+        &:nth-child(4n+5) { background-color: $magenta; }
         &:nth-child(4n+6) { background-color: $orange; }
 
         &:last-child {
@@ -354,6 +356,7 @@ aside {
     color: $black;
     box-sizing: border-box;
     flex-grow: 1;
+    width: min-content;
   }
 
   h1, h2, h3 {
@@ -411,7 +414,7 @@ hr {
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 10px;
 
     .gallery-item {
@@ -482,6 +485,10 @@ hr {
 
     h3 {
       font-size: 1.6em;
+    }
+
+    .retro-box {
+      border: 2px inset $dark-grey;
     }
 
     .main-container {

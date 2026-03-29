@@ -26,14 +26,14 @@ date: 2026-01-27T15:33:09+02:00
 
 ## Schritt-für-Schritt-Anleitung
 
-1.  **Garnelen-Searing:**Erhitze 1 EL Kokosöl in einer großen Pfanne oder einem Wok. Brate die Garnelen mit einer Prise Salz und etwas Knoblauch für ca. **90 Sekunden pro Seite** an, bis sie gerade so rosa sind. Nimm sie sofort aus der Pfanne und stelle sie beiseite. (Sie garen später im heißen Kohl fertig).
+1.  **Garnelen-Searing:** Erhitze 1 EL Kokosöl in einer großen Pfanne oder einem Wok. Brate die Garnelen mit einer Prise Salz und etwas Knoblauch für ca. **90 Sekunden pro Seite** an, bis sie gerade so rosa sind. Nimm sie sofort aus der Pfanne und stelle sie beiseite. (Sie garen später im heißen Kohl fertig).
 
-2.  **Die Aromen-Basis:**Gib das restliche Öl in die Pfanne. Füge den restlichen Knoblauch, den geriebenen Ingwer, Piment und Kurkuma hinzu. Brate alles bei mittlerer Hitze für ca. **1 Minute** an, bis es duftet. **Wichtig:** Da die Zwiebeln fehlen, achte darauf, dass der Knoblauch nicht verbrennt, sonst wird es bitter.
+2.  **Die Aromen-Basis:** Gib das restliche Öl in die Pfanne. Füge den restlichen Knoblauch, den geriebenen Ingwer, Piment und Kurkuma hinzu. Brate alles bei mittlerer Hitze für ca. **1 Minute** an, bis es duftet. **Wichtig:** Da die Zwiebeln fehlen, achte darauf, dass der Knoblauch nicht verbrennt, sonst wird es bitter.
 
-3.  **Grünkohl & Kokos:**Gib den Grünkohl schichtweise in die Pfanne. Rühre ihn um, bis er leicht zusammenfällt. Gieße die Kokosmilch ein und lege die ganze Chili obenauf.
+3.  **Grünkohl & Kokos:** Gib den Grünkohl schichtweise in die Pfanne. Rühre ihn um, bis er leicht zusammenfällt. Gieße die Kokosmilch ein und lege die ganze Chili obenauf.
 
-4.  **Schmoren:**Reduziere die Hitze auf mittlere Stufe. Lass den Kohl mit geschlossenem Deckel ca. **12–15 Minuten** köcheln, bis er die gewünschte Zartheit hat und die Kokosmilch leicht cremig eingekocht ist.
+4.  **Schmoren:** Reduziere die Hitze auf mittlere Stufe. Lass den Kohl mit geschlossenem Deckel ca. **12–15 Minuten** köcheln, bis er die gewünschte Zartheit hat und die Kokosmilch leicht cremig eingekocht ist.
 
-5.  **Das Finale:**Entferne die Chili. Gib die beiseite gestellten Garnelen zurück in den Topf. Rühre alles für ca. **1–2 Minuten** um, bis die Garnelen wieder heiß sind.
+5.  **Das Finale:** Entferne die Chili. Gib die beiseite gestellten Garnelen zurück in den Topf. Rühre alles für ca. **1–2 Minuten** um, bis die Garnelen wieder heiß sind.
 
-6.  **Abschmecken:**Nimm die Pfanne vom Herd. Rühre den Limettensaft unter und schmecke mit Salz und Pfeffer ab.
+6.  **Abschmecken:** Nimm die Pfanne vom Herd. Rühre den Limettensaft unter und schmecke mit Salz und Pfeffer ab.

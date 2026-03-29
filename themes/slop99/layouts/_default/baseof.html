@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ block "title" . }}{{ end }}</title>
-    {{ partial "html/head/meta.html" . }}
+    {{- partial "html/head/meta.html" . -}}
     {{- partial "html/head/style.html" (dict "context" .) -}}
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32.png" | absURL }}" sizes="32x32">
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16.png" | absURL }}" sizes="16x16">
