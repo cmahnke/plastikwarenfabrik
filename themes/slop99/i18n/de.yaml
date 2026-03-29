@@ -10,3 +10,12 @@ written_on:
   other: "Geschrieben am:"
 read_more:
   other: "[MEHR LESEN]"
+
+navigation:
+  other: ".: NAVIGATION :."
+menu:
+  other: ".: MENÜ AUFKLAPPEN :."
+home:
+  other: "Startseite"
+news:
+  other: "News"

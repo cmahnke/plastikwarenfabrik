@@ -1,15 +1,15 @@
 <aside class="td">
-    <div class="nav-header">.: NAVIGATION :.</div>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label">.: MENÜ AUFKLAPPEN :.</label>
+  <div class="nav-header">{{ i18n "navigation" }}</div>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label">{{ i18n "menu" }}</label>
 
-    <nav class="retro-menu">
-        <a href="{{ .Site.BaseURL }}" class="menu-btn">Startseite</a>
-        {{- range .Site.Sections -}}
-          {{- if ne .Params.displayinlist false -}}
-            <a href="{{ .Permalink }}" class="menu-btn">{{ .Title }}</a>
-          {{- end -}}
-        {{- end -}}
-    </nav>
+  <nav class="retro-menu">
+    <a href="{{ .Site.BaseURL }}" class="menu-btn">{{ i18n "home" }}</a>
+    {{- range .Site.Sections -}}
+      {{- if ne .Params.displayinlist false -}}
+        <a href="{{ .Permalink }}" class="menu-btn">{{ .Title }}</a>
+      {{- end -}}
+    {{- end -}}
+  </nav>
 
 </aside>

@@ -11,6 +11,8 @@
   debug = true
   headerimage = false
 
+  marquee = "+++ WILLKOMMEN BEI KLAUS-INGO'S PLASTIKWARENFABRIK +++ QUALITÄTS SLOP SEIT 1999 +++ WIR FORMEN DIE ZUKUNFT +++"
+
 [params.author]
   email = 'mail@christianmahnke.de'
   name = 'Klaus-Ingo Projektemacher'

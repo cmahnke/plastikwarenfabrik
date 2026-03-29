@@ -1,8 +1,10 @@
 <header class="th">
+  {{- with site.Params.marquee -}}
     <div class="marquee-container">
-        <div class="marquee-content">+++ WILLKOMMEN BEI KLAUS-INGO'S PLASTIKWARENFABRIK +++ QUALITÄTS SLOP SEIT 1999 +++ WIR FORMEN DIE ZUKUNFT +++</div>
+      <div class="marquee-content">{{ . }}</div>
     </div>
-    <h1 data-text="{{ .Site.Title }}">{{ .Site.Title }}</h1>
-    <p></p>
-    <img class="under-construction" src="/images/underconstruction1.webp" alt="Under Construction">
+  {{- end -}}
+  <h1 data-text="{{ .Site.Title }}">{{ .Site.Title }}</h1>
+  <p></p>
+  <img class="under-construction" src="/images/underconstruction1.webp" alt="Under Construction">
 </header>

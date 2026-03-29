@@ -1,15 +1,23 @@
+{{ define "title" }}
+  {{- .Title }} - {{ .Site.Title -}}
+{{ end }}
 {{ define "main" }}
     <article class="retro-box">
         <h2 style="text-decoration: underline;">{{ .Title }}</h2>
         <div class="meta blink">
             <small><i>{{ i18n "written_by_webmaster" }}</i></small>
         </div>
-        <br><br>
-        
+
+        {{- if .IsHome -}}
+          <h2 class="blink">News</h2>
+        {{- else -}}
+          <br><br>
+        {{- end -}}
+
         <div class="content">
             {{ .Content }}
         </div>
-        
+
         <br>
 
         {{ partial "gallery.html" . }}

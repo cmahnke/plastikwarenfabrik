@@ -27,21 +27,20 @@ $button-font: "MS Sans Serif", "Geneva", sans-serif;
 $nav-font: "Arial", sans-serif;
 
 body {
-    background-color: #87CEEB;
-    background-image: url('/images/sky.jpg');
-    color: $black;
-    font-family: $text-font;
-    margin: 0;
-    padding: 10px;
-    min-height: 100vh;
+  background-color: #87CEEB;
+  background-image: url('/images/sky.jpg');
+  color: $black;
+  font-family: $text-font;
+  margin: 0;
+  padding: 10px;
+  min-height: 100vh;
 }
 
 .retro-box {
-    /*background-color: $white;*/
-    border: 2px inset $dark-grey;
-    padding: 15px;
-    margin-bottom: 20px;
-    color: $black;
+  border: 2px inset $dark-grey;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: $black;
 }
 
 article h3 {
@@ -52,23 +51,23 @@ article h3 {
 }
 
 article.retro-box .meta {
-    text-align: right;
+  text-align: right;
 }
 
 a {
-    color: $blue;
-    text-decoration: underline;
+  color: $blue;
+  text-decoration: underline;
 
-    &:visited {
-        color: $purple;
-    }
+  &:visited {
+    color: $purple;
+  }
 
-    &:hover {
-        color: $red;
-        text-decoration: none;
-        cursor: pointer;
-        background-color: $yellow;
-    }
+  &:hover {
+    color: $red;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: $yellow;
+  }
 }
 
 h1, h2, h3 {
@@ -84,14 +83,14 @@ h3 {
 }
 
 header {
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: $grey;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: $grey;
 
-    .under-construction {
-      margin-bottom: .4rem;
-    }
+  .under-construction {
+    margin-bottom: .4rem;
+  }
 
     h1 {
         font-size: 3em;
@@ -297,6 +296,10 @@ aside {
         &:nth-child(4n+5) { background-color: $orange; }
         &:nth-child(4n+6) { background-color: $orange; }
 
+        &:last-child {
+          margin-bottom: 1rem;
+        }
+
         &:hover {
             cursor: pointer;
             filter: brightness(1.1);
@@ -378,22 +381,31 @@ footer {
 }
 
 .blink {
-  animation: blinker 1s linear infinite;
+  animation: blinker 0.75s ease-in infinite;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
+  0% {
+    opacity: 1
+  }
+  75% {
+    opacity: 1
+  }
+  76% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
   }
 }
 
 hr {
-    border: 0;
-    border-top: 1px solid $dark-grey;
-    border-bottom: 1px solid $white;
-    height: 2px;
-    background: none;
-    margin: 20px 0;
+  border: 0;
+  border-top: 1px solid $dark-grey;
+  border-bottom: 1px solid $white;
+  height: 2px;
+  background: none;
+  margin: 20px 0;
 }
 
 .gallery-container {
@@ -403,20 +415,21 @@ hr {
     padding: 10px;
 
     .gallery-item {
-        margin: 10px;
-        text-align: center;
-        width: 150px;
+      margin: 10px;
+      text-align: center;
+      width: 150px;
 
-        img {
-            width: 100%;
-            height: auto;
-            border: 2px solid $white;
+      img {
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        border: 2px solid $white;
 
-            &:hover {
-                border-color: $yellow;
-                cursor: zoom-in;
-            }
+        &:hover {
+          border-color: $yellow;
+          cursor: zoom-in;
         }
+      }
     }
 }
 
