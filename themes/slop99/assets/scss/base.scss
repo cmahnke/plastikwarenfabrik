@@ -1,5 +1,6 @@
 @use "sass:color";
 @use "npm-fonts/comic-relief" as *;
+@use "npm-fonts/courier-prime" as *;
 
 @use "retro" as *;
 @use "html3" as *;
@@ -21,6 +22,9 @@ $orange: #FF4500;
 
 $text-font: 'Comic Relief', serif;
 $heading-font: 'Times New Roman', serif;
+$courier-font: 'Courier Prime', monospace;
+$button-font: "MS Sans Serif", "Geneva", sans-serif;
+$nav-font: "Arial", sans-serif;
 
 body {
     background-color: #87CEEB;
@@ -67,12 +71,16 @@ a {
     }
 }
 
-.main-container {
-    width: 800px;
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+h1, h2, h3 {
+  font-family: $heading-font;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.8em;
 }
 
 header {
@@ -81,9 +89,11 @@ header {
     text-align: center;
     background-color: $grey;
 
-    h1 {
-        font-family: $heading-font;
+    .under-construction {
+      margin-bottom: .4rem;
+    }
 
+    h1 {
         font-size: 3em;
         margin: 0;
         margin-top: 2rem;
@@ -210,7 +220,7 @@ header {
       padding-left: 100%;
       animation: marquee 15s linear infinite;
       color: $green;
-      font-family: "Courier New", monospace;
+      font-family: $courier-font, "Courier New";
       font-weight: bold;
       font-size: 1.2em;
       padding-top: 5px;
@@ -224,7 +234,7 @@ header {
 }
 
 aside {
-    width: 200px;
+    width: max-content;
     padding: 10px;
     border-right: 2px groove $white;
     background-color: $grey;
@@ -235,9 +245,10 @@ aside {
         color: $navy;
         font-weight: bold;
         margin-bottom: 10px;
-        font-family: "Arial", sans-serif;
+        font-family: $nav-font;
         border-bottom: 1px solid $navy;
-        padding-bottom: 5px;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
     }
 
     .nav-toggle, .nav-toggle-label {
@@ -255,7 +266,8 @@ aside {
         display: block;
         background-color: $blue;
         height: calc(31px * (2 / 3));
-        width: calc(88px * (1 + (2 / 3)));
+        width: calc(88px * (2 * (2 / 3)));
+        margin: 0 1rem;
 
         border-top: 2px solid $white;
         border-left: 2px solid $white;
@@ -269,7 +281,7 @@ aside {
         color: $white;
         text-decoration: none;
         padding: 8px;
-        font-family: "MS Sans Serif", "Geneva", sans-serif;
+        font-family: $button-font;
         font-weight: bold;
         font-size: 14px;
 
@@ -327,25 +339,52 @@ aside {
     }
 }
 
-main {
-    flex: 1;
-    padding: 20px;
+.main-container {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  main {
+    padding: 1rem !important;
     color: $black;
     box-sizing: border-box;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
 }
 
 footer {
     width: 100%;
     text-align: center;
-    border-top: 2px groove $white;
+    /* border-top: 2px groove $white; */
     padding: 10px;
     font-size: 0.8em;
     background-color: $grey;
     color: $black;
+
+    hr {
+      margin: unset;
+      margin-block-start: 1em;
+    }
+
+    p {
+      margin-block-end: unset;
+    }
 }
 
-.blink { animation: blinker 1s linear infinite; }
-@keyframes blinker { 50% { opacity: 0; } }
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 hr {
     border: 0;
@@ -381,9 +420,14 @@ hr {
 }
 
 .list {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 
   .post {
+    width: 100%;
+    text-align: center;
+
     &:not(:last-child):after {
       content: "";
       display: block;
@@ -407,6 +451,7 @@ hr {
     }
 
     .main-container {
+        flex: 1;
         width: 100%;
         display: block;
         border: none;

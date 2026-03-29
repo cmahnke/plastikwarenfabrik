@@ -19,7 +19,10 @@
         {{ partial "header.html" . }}
         {{ partial "sidebar.html" . }}
         <main class="td">
-            {{ block "main" . }}{{ end }}
+          {{- if .IsHome -}}
+            <h2 class="blink">News</h2>
+          {{- end -}}
+          {{ block "main" . }}{{ end }}
         </main>
         {{ partial "footer.html" . }}
     </div>

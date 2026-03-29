@@ -13,8 +13,7 @@
 
 [params.author]
   email = 'mail@christianmahnke.de'
-  name = 'Christian Mahnke'
-  uri = 'http://www.wikidata.org/entity/Q137668638'
+  name = 'Klaus-Ingo Projektemacher'
 
 # [params.preview]
 #   outputPrefix = "ogPreview"
