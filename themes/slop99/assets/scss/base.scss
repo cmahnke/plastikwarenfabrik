@@ -421,7 +421,7 @@ hr {
     .gallery-item {
       margin: 10px;
       text-align: center;
-      width: 150px;
+      width: 29%;
 
       img {
         box-sizing: border-box;
@@ -477,66 +477,80 @@ hr {
       max-width: calc(100% - 170px);
     }
   }
+
+  .gallery-container {
+    justify-content: center;
+
+    .gallery-item {
+      width: 43%;
+    }
+  }
 }
 
 @media (max-width: 480px) {
-    h2 {
-      font-size: 2em;
-    }
+  h2 {
+    font-size: 2em;
+  }
 
-    h3 {
-      font-size: 1.6em;
-    }
+  h3 {
+    font-size: 1.6em;
+  }
 
-    .retro-box {
-      border: 2px inset $dark-grey;
-    }
+  .retro-box {
+    border: 2px inset $dark-grey;
+  }
 
-    .main-container {
-      flex: 1;
+  .main-container {
+    flex: 1;
+    display: block;
+    border: none;
+    box-shadow: none;
+  }
+
+  main {
+    width: 100% !important;
+    max-width: unset !important;
+  }
+
+  aside {
+    width: 100% !important;
+    border-right: none;
+    border-bottom: 2px groove $white;
+
+    .nav-toggle-label {
       display: block;
-      border: none;
-      box-shadow: none;
+      background-color: $blue;
+      color: $white;
+      border: 2px outset $white;
+      padding: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
 
-    main {
-      width: 100% !important;
-      max-width: unset !important;
+    .nav-toggle-label:active {
+      border-style: inset;
     }
 
-    aside {
-      width: 100% !important;
-      border-right: none;
-      border-bottom: 2px groove $white;
-
-      .nav-toggle-label {
-        display: block;
-        background-color: $blue;
-        color: $white;
-        border: 2px outset $white;
-        padding: 10px;
-        cursor: pointer;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-
-      .nav-toggle-label:active {
-        border-style: inset;
-      }
-
-      .retro-menu {
-        display: none;
-      }
-
-      .nav-toggle:checked ~ .retro-menu {
-        display: flex;
-      }
+    .retro-menu {
+      display: none;
     }
 
-    header h1 {
-      font-size: 2.4em;
-        /*text-shadow: 1px 1px 0 $black;*/
+    .nav-toggle:checked ~ .retro-menu {
+      display: flex;
     }
+  }
+
+  header h1 {
+    font-size: 2.4em;
+      /*text-shadow: 1px 1px 0 $black;*/
+  }
+
+  .gallery-container {
+    .gallery-item {
+      width: 100%;
+    }
+  }
 
 }
 
