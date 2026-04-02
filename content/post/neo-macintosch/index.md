@@ -1,6 +1,6 @@
 ---
 title: "Neo MacIntosch"
-date: 2026-04-1T15:33:09+02:00
+date: 2026-04-01T15:33:09+02:00
 ---
 
 In einer sterilen Megalopolis muss der letzte Highlander sich entscheiden, ob er die digitale Illusion der "Agents" akzeptiert oder die Realität entfesselt.

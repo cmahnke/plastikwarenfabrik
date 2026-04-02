@@ -586,3 +586,17 @@ a.lightbox {
     background-color: black;
   }
 }
+
+a.no-pointer {
+  cursor: default;
+
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    color: black;
+    text-decoration: none;
+    background-color: unset;
+  }
+
+}
