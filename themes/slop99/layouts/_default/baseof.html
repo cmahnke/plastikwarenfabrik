@@ -7,7 +7,7 @@
     {{- partial "html/head/style.html" (dict "context" .) -}}
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32.png" | absURL }}" sizes="32x32">
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16.png" | absURL }}" sizes="16x16">
-    {{- partial "html/head/page-scripts.html" . -}}
+    {{- partial "html/head/script.html" . -}}
     <link rel="canonical" href="{{ .Permalink }}">
     {{- partial "metadata/schema.org/schema.org.html" . -}}
 </head>
