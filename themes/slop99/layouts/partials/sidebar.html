@@ -6,7 +6,11 @@
   <nav class="retro-menu">
     <a href="{{ .Site.BaseURL }}" class="menu-btn">{{ i18n "home" }}</a>
     {{- range .Site.Sections -}}
+
+      {{/*
       {{- if ne .Params.displayinlist false -}}
+      */}}
+      {{- if or .IsHome .Parent.IsHome -}}
         <a href="{{ .Permalink }}" class="menu-btn">{{ .Title }}</a>
       {{- end -}}
     {{- end -}}

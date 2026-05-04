@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 ./themes/projektemacher-base/scripts/cleanup.sh
-rm static/images/*.svg
+rm -f static/images/*.svg
