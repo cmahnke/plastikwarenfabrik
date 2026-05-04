@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16.png" | absURL }}" sizes="16x16">
     {{- partial "html/head/page-scripts.html" . -}}
     <link rel="canonical" href="{{ .Permalink }}">
-    {{- partial "data/schema.org.html" . -}}
+    {{- partial "metadata/schema.org/schema.org.html" . -}}
 </head>
 <body>
     <div class="main-container table">
