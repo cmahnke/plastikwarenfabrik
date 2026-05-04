@@ -20,7 +20,9 @@
 
         <br>
 
-        {{ partial "gallery.html" . }}
+        {{- with .Resources -}}
+          {{- partial "gallery.html" $ -}}
+        {{- end -}}
 
         <br>
         <center>
