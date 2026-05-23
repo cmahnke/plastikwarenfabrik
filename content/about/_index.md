@@ -1,6 +1,7 @@
 ---
 title: Über
 metaPage: true
+sidebar: true
 ---
 
 Auf dieser Seite finden sich ein paar ausgesuchte Experimente mit generativer KI, hauptsächlich [Gemini](https://gemini.google.com/). Auch das Theme der Seite wurde zu über 50% generiert, allerdings waren aus manuelle Anpassung notwendig, da (Anfang 2026) das prompten vieler Details nur ineffizient funktioniert(e).

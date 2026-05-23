@@ -1,6 +1,7 @@
 ---
 title: Links
 metaPage: true
+sidebar: true
 ---
 
 

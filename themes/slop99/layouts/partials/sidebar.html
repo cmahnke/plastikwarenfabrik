@@ -7,10 +7,7 @@
     <a href="{{ .Site.BaseURL }}" class="menu-btn">{{ i18n "home" }}</a>
     {{- range .Site.Sections -}}
 
-      {{/*
-      {{- if ne .Params.displayinlist false -}}
-      */}}
-      {{- if or .IsHome .Parent.IsHome -}}
+      {{- if and (or .IsHome .Parent.IsHome) (eq .Params.sidebar true) -}}
         <a href="{{ .Permalink }}" class="menu-btn">{{ .Title }}</a>
       {{- end -}}
     {{- end -}}
