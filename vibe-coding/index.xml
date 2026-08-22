@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Vibe Coding on Klaus-Ingo&#39;s Plastikwarenfabrik</title>
+		<link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/</link>
+		<description>Recent content in Vibe Coding on Klaus-Ingo&#39;s Plastikwarenfabrik</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</webMaster>
+		
+		
+			<copyright>Christian Mahnke</copyright>
+		
+		
+			<lastBuildDate>Sat, 23 May 2026 22:45:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://plastikwarenfabrik.projektemacher.org/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>LIDO XML zu HTML Konverter</title>
+				<link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/lido2html/</link>
+				<pubDate>Sat, 23 May 2026 15:33:09 +0200</pubDate><author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+				<guid>https://plastikwarenfabrik.projektemacher.org/vibe-coding/lido2html/</guid>
+				<description>&lt;p&gt;Auch wenn es 2026 gar kein Vibe Coding mehr gibt, hier ist der erste Eintrag in dieser neuen Kategorie.&lt;/p&gt;&#xA;&lt;p&gt;Mit diesem kleinen Werkzeug können Sie LIDO-XML-Dateien, die Sie beispielsweise aus dem Sammlungsportal der Universität Göttingen exportiert haben, in HTML konvertieren. Im nächsten Schritt können die erzeugten Dateien z.B. im &lt;a href=&#34;https://docs.hpc.gwdg.de/services/ai-services/arcana/index.html&#34; target=&#34;_blank&#34;&gt;Arcana/RAG System der GWDG&lt;/a&gt; weiterverarbeitet zu werden.&lt;/p&gt;&#xA;&lt;p&gt;Der Code ist bei GitHub unter &lt;a href=&#34;https://github.com/cmahnke/lido2html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;cmahnke/lido2html&lt;/code&gt;&lt;/a&gt; verfügbar.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
