@@ -1,9 +1,9 @@
 ---
 title: "K8s Volume Explorer"
-date: 2026-08-25T15:33:09+02:00
+date: 2026-08-25T19:33:09+02:00
 ---
 
-Der Marketing Stunt "[Ox Alpha](https://oxalpha.com/)" hat mir ein neues Spielzeug generiert, um vernünftiger mit Dateien in einem Kubernetes-Cluster arbeiten zu können.
+Der Marketing-Stunt "[Ox Alpha](https://oxalpha.com/)" hat ein neues Spielzeug generiert, um vernünftiger mit Dateien in einem Kubernetes-Cluster arbeiten zu können.
 
 Das Tool ist auf [Github verfügbar](https://github.com/cmahnke/k8s-pv-gui). Es wird keine Garantie übernommen...
 
