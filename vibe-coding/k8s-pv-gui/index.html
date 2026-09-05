@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>K8s Volume Explorer - Klaus-Ingo&#39;s Plastikwarenfabrik</title><meta name="author" content="Klaus-Ingo Projektemacher">
+  <meta name="dc.creator" content="Klaus-Ingo Projektemacher">
+
+<meta http-equiv="Content-Language" content="de">
+<meta name="dc.type" content="Text">
+<meta name="description" content="Feinster AI Slop">
+<meta property="og:type" content="article" /><meta property="og:url" content="https://plastikwarenfabrik.projektemacher.org/vibe-coding/k8s-pv-gui/" /><meta property="og:title" content="K8s Volume Explorer" />
+
+  
+  
+    
+  
+
+
+
+
+<meta name="generator" content="Hugo 0.165.0">
+<meta name="projektemacher.org:build-date" content="2026-09-05 20:27:58.436753278 &#43;0000 UTC m=&#43;0.148591462"><meta name="projektemacher.org:stats" content="{&#34;count&#34;:&#34;27&#34;,&#34;latest&#34;:&#34;2026-09-05T15:33:09&#43;02:00&#34;}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<link rel="icon" type="image/svg+xml" href="https://plastikwarenfabrik.projektemacher.org/images/cm.svg">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<link href="https://plastikwarenfabrik.projektemacher.org/css/3dcde2e700baa65d3814003bfc8fa7f9.min.26373d93685af65e2c80ab43ffec393f3918617c06b0fe8e2b996c8c88907c67.css" rel="stylesheet" integrity="sha256-Jjc9k2ha9l4sgKtD/&#43;w5PzkYYXwGsP6OK5lsjIiQfGc=">
+<link rel="icon" type="image/png" href="https://plastikwarenfabrik.projektemacher.org/images/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://plastikwarenfabrik.projektemacher.org/images/favicon-16.png" sizes="16x16"><script src="https://plastikwarenfabrik.projektemacher.org/js/b666fa2c26540b5b690beb8768c2b5fa.2fbfe3c60558260ba0fb729d2cd9b6005a7864910cae2a7820d09598df7b565e.js" integrity="sha256-L7/jxgVYJgug+3KdLNm2AFp4ZJEMrip4INCVmN97Vl4="></script><link rel="canonical" href="https://plastikwarenfabrik.projektemacher.org/vibe-coding/k8s-pv-gui/"></head>
+<body>
+    <div class="main-container table">
+        <header class="th"><div class="marquee-container">
+      <div class="marquee-content">&#43;&#43;&#43; WILLKOMMEN BEI KLAUS-INGO&#39;S PLASTIKWARENFABRIK &#43;&#43;&#43; QUALITÄTS SLOP SEIT 1999 &#43;&#43;&#43; WIR FORMEN DIE ZUKUNFT &#43;&#43;&#43;</div>
+    </div><h1 data-text="Klaus-Ingo&#39;s Plastikwarenfabrik"><a href="https://plastikwarenfabrik.projektemacher.org/" class="no-pointer">Klaus-Ingo&#39;s Plastikwarenfabrik</a></h1>
+  <p></p>
+  <img class="under-construction" src="https://plastikwarenfabrik.projektemacher.org/images/underconstruction1.webp" alt="Under Construction">
+</header>
+
+        <aside class="td">
+  <div class="nav-header">.: NAVIGATION :.</div>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label">.: MENÜ AUFKLAPPEN :.</label>
+
+  <nav class="retro-menu">
+    <a href="https://plastikwarenfabrik.projektemacher.org/" class="menu-btn">Startseite</a><a href="https://plastikwarenfabrik.projektemacher.org/vibe-coding/" class="menu-btn">Vibe Coding</a><a href="https://plastikwarenfabrik.projektemacher.org/vibe-cooking/" class="menu-btn">Vibe Cooking</a><a href="https://plastikwarenfabrik.projektemacher.org/post/" class="menu-btn">Beiträge</a><a href="https://plastikwarenfabrik.projektemacher.org/links/" class="menu-btn">Links</a><a href="https://plastikwarenfabrik.projektemacher.org/about/" class="menu-btn">Über</a></nav>
+
+</aside>
+
+        <main class="td">
+          
+    <article class="retro-box">
+        <h2 style="text-decoration: underline;">K8s Volume Explorer</h2>
+        <div class="meta blink">
+            <small><i>Verfasst von Webmaster Klaus-Ingo</i></small>
+        </div><br><br><div class="content">
+            <p>Der Marketing-Stunt &ldquo;<a href="https://oxalpha.com/" target="_blank">Ox Alpha</a>&rdquo; hat ein neues Spielzeug generiert, um vernünftiger mit Dateien in einem Kubernetes-Cluster arbeiten zu können.</p>
+<p>Das Tool ist auf <a href="https://github.com/cmahnke/k8s-pv-gui" target="_blank">Github verfügbar</a>. Es wird keine Garantie übernommen&hellip;</p>
+<p>Das sagt Gemini dazu:</p>
+<hr>
+<p><strong>K8s Volume Explorer</strong> ist ein auf Electron basierender Datei-Manager für Kubernetes-Volumes. Er bietet eine grafische Oberfläche, um Verzeichnisstrukturen von mounted Volumes (<code>PVC</code>, <code>hostPath</code>, <code>emptyDir</code>) laufender Pods zu durchsuchen sowie Dateien per Drag &amp; Drop zu übertragen.</p>
+<h3 id="funktionsweise">Funktionsweise</h3>
+<p>Das Tool setzt auf eine lokale <code>kubectl</code>-Installation auf und nutzt vorhandene Konfigurationen (<code>~/.kube/config</code> oder <code>$KUBECONFIG</code>).</p>
+<ul>
+<li><strong>Browsen:</strong> Erfolgt via <code>kubectl exec ... ls -la</code> (mit Fallback für BusyBox-Images).</li>
+<li><strong>Upload / Download:</strong> Nutzt <code>kubectl cp</code>. Falls im Ziel-Container kein <code>tar</code> vorhanden ist (z. B. bei Distroless-Images), greift ein Streaming-Fallback via Stdin/Cat für Einzeldateien.</li>
+<li><strong>Dateiverwaltung:</strong> Erstellen, Umbenennen und Löschen von Ordnern oder Dateien geschehen direkt über Shell-Befehle im Container.</li>
+</ul>
+<h3 id="technische-fakten--tools">Technische Fakten &amp; Tools</h3>
+<ul>
+<li><strong>Technologie-Stack:</strong> Electron, TypeScript, esbuild.</li>
+<li><strong>Voraussetzungen:</strong> Node.js ≥ 18, <code>kubectl</code> im PATH, entsprechende RBAC-Rechte im Cluster (<code>get pods</code>, <code>create pods/exec</code>).</li>
+<li><strong>Packaging:</strong> Native Builds für macOS, Windows und Linux via <a href="https://www.electron.build" target="_blank">electron-builder</a>.</li>
+<li><strong>Qualitätssicherung:</strong> CI-Pipelines nutzen <a href="https://oxc.rs" target="_blank">oxlint</a> (inklusive vendored <a href="https://github.com/dmmulroy/anti-slop" target="_blank">anti-slop</a>-Regeln), <a href="https://prettier.io" target="_blank">Prettier</a> und <a href="https://stylelint.io" target="_blank">Stylelint</a>.</li>
+</ul>
+<h3 id="fakten-vs-marketing-hype">Fakten vs. Marketing-Hype</h3>
+<ul>
+<li><strong>Fakt (Bequemlichkeit):</strong> Grafisches Drag &amp; Drop und temporäres lokales Öffnen von Dateien aus dem Cluster ersparen das manuelle Tippen komplexer <code>kubectl cp</code>-Befehle.</li>
+<li><strong>Hype vs. Realität (Distroless-Einschränkungen):</strong> Der Upload und Download kompletter Ordner scheitert bei Minimal-Images ohne <code>tar</code>, da der Stream-Fallback technisch bedingt nur für Einzeldateien funktioniert.</li>
+<li><strong>Hype vs. Realität (Drag &amp; Drop Latenz):</strong> Beim Herunterziehen von Dateien muss die Anwendung diese erst vollständig in ein lokales Temporärverzeichnis streamen, bevor das Betriebssystem die Datei übernimmt. Dies führt zu einer spürbaren Verzögerung beim Ziehen.</li>
+</ul>
+<h3 id="stabilität--einschränkungen">Stabilität &amp; Einschränkungen</h3>
+<ul>
+<li><strong>Kein Papierkorb:</strong> Löschvorgänge werden direkt via Shell im Container ausgeführt (<code>rm</code>). Gelöschte Daten sind unwiderruflich verloren.</li>
+<li><strong>Symlink-Grenzen:</strong> Symlinks werden angezeigt, jedoch nur aufgelöst, wenn das Ziel im selben Verzeichnis liegt.</li>
+<li><strong>macOS Code-Signing:</strong> Lokale macOS-Builds sind standardmäßig nicht signiert (<code>identity: null</code>) und erfordern für den Verteilbetrieb ein Developer-Zertifikat.</li>
+</ul>
+
+        </div>
+
+        <br><br>
+        <center>
+            <hr style="width: 50%;">
+            <a href="https://plastikwarenfabrik.projektemacher.org/">Zurück zur Startseite</a>
+        </center>
+    </article>
+
+        </main>
+        <footer>
+    <div class="promo-box"><a href="https://github.com/cmahnke" target="_blank"><img src="https://plastikwarenfabrik.projektemacher.org/images/github.webp" alt="GitHub"></a>
+<a href="https://validator.w3.org/nu/?doc=" target="_blank"><img src="https://plastikwarenfabrik.projektemacher.org/images/valid-html5.webp" alt="Valides HTML5"></a>
+</div>
+    <hr><p>&copy; 1999  Klaus-Ingo Projektemacher</p>
+    <p><a href="#"><img src="https://plastikwarenfabrik.projektemacher.org/images/EMAIL.webp" alt="E-Mail an mich!"></a></p>
+    <br>
+    <div id="hit-counter"></div>
+</footer>
+
+    </div>
+    
+    <script src="https://plastikwarenfabrik.projektemacher.org/ts/main.js"></script>
+</body>
+</html>

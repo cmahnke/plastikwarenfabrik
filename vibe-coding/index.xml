@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Vibe Coding on Klaus-Ingo&#39;s Plastikwarenfabrik</title>
+		<link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/</link>
+		<description>Recent content in Vibe Coding on Klaus-Ingo&#39;s Plastikwarenfabrik</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</webMaster>
+		
+		
+			<copyright>Christian Mahnke</copyright>
+		
+		
+			<lastBuildDate>Sat, 05 Sep 2026 22:22:13 +0200</lastBuildDate>
+		
+			<atom:link href="https://plastikwarenfabrik.projektemacher.org/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Streetview archiver</title>
+				<link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/streetview-archiver/</link>
+				<pubDate>Tue, 25 Aug 2026 22:33:09 +0200</pubDate><author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+				<guid>https://plastikwarenfabrik.projektemacher.org/vibe-coding/streetview-archiver/</guid>
+				<description>&lt;p&gt;Und noch ein von OX Alpha generiertes Spielzeug. Passend zu dem Blogbeitrag &amp;lsquo;&lt;a href=&#34;https://christianmahnke.de/post/digital-lost-places/&#34; target=&#34;_blank&#34;&gt;Digitale &amp;ldquo;Lost Places&amp;rdquo;&lt;/a&gt;&amp;rsquo; habe ich Ox Alpha gebeten einen einfachen Downloader für Fotos von Google Maps zu laden, sowohl die &amp;ldquo;normalen&amp;rdquo; Straßenansichten als auch die interessanteren Innenansichten.&lt;/p&gt;&#xA;&lt;p&gt;Dazu gibt es auch einen Viewer in dem die Sphären betrachtet werden können. Wie immer ist das Ganze auf &lt;a href=&#34;https://github.com/cmahnke/streetview-archiver&#34; target=&#34;_blank&#34;&gt;Github verfügbar&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Der Bereich aus dem Beitrag kann einfach mit dem &lt;code&gt;demo.sh&lt;/code&gt; Script heruntergeladen werden:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>K8s Volume Explorer</title>
+				<link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/k8s-pv-gui/</link>
+				<pubDate>Tue, 25 Aug 2026 19:33:09 +0200</pubDate><author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+				<guid>https://plastikwarenfabrik.projektemacher.org/vibe-coding/k8s-pv-gui/</guid>
+				<description>&lt;p&gt;Der Marketing-Stunt &amp;ldquo;&lt;a href=&#34;https://oxalpha.com/&#34; target=&#34;_blank&#34;&gt;Ox Alpha&lt;/a&gt;&amp;rdquo; hat ein neues Spielzeug generiert, um vernünftiger mit Dateien in einem Kubernetes-Cluster arbeiten zu können.&lt;/p&gt;&#xA;&lt;p&gt;Das Tool ist auf &lt;a href=&#34;https://github.com/cmahnke/k8s-pv-gui&#34; target=&#34;_blank&#34;&gt;Github verfügbar&lt;/a&gt;. Es wird keine Garantie übernommen&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Das sagt Gemini dazu:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;K8s Volume Explorer&lt;/strong&gt; ist ein auf Electron basierender Datei-Manager für Kubernetes-Volumes. Er bietet eine grafische Oberfläche, um Verzeichnisstrukturen von mounted Volumes (&lt;code&gt;PVC&lt;/code&gt;, &lt;code&gt;hostPath&lt;/code&gt;, &lt;code&gt;emptyDir&lt;/code&gt;) laufender Pods zu durchsuchen sowie Dateien per Drag &amp;amp; Drop zu übertragen.&lt;/p&gt;&#xA;&lt;h3 id=&#34;funktionsweise&#34;&gt;Funktionsweise&lt;/h3&gt;&#xA;&lt;p&gt;Das Tool setzt auf eine lokale &lt;code&gt;kubectl&lt;/code&gt;-Installation auf und nutzt vorhandene Konfigurationen (&lt;code&gt;~/.kube/config&lt;/code&gt; oder &lt;code&gt;$KUBECONFIG&lt;/code&gt;).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>LIDO XML zu HTML Konverter</title>
+				<link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/lido2html/</link>
+				<pubDate>Sat, 23 May 2026 15:33:09 +0200</pubDate><author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+				<guid>https://plastikwarenfabrik.projektemacher.org/vibe-coding/lido2html/</guid>
+				<description>&lt;p&gt;Auch wenn es 2026 gar kein Vibe Coding mehr gibt, hier ist der erste Eintrag in dieser neuen Kategorie.&lt;/p&gt;&#xA;&lt;p&gt;Mit diesem kleinen Werkzeug können Sie LIDO-XML-Dateien, die Sie beispielsweise aus dem Sammlungsportal der Universität Göttingen exportiert haben, in HTML konvertieren. Im nächsten Schritt können die erzeugten Dateien z.B. im &lt;a href=&#34;https://docs.hpc.gwdg.de/services/ai-services/arcana/index.html&#34; target=&#34;_blank&#34;&gt;Arcana/RAG System der GWDG&lt;/a&gt; weiterverarbeitet zu werden.&lt;/p&gt;&#xA;&lt;p&gt;Der Code ist bei GitHub unter &lt;a href=&#34;https://github.com/cmahnke/lido2html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;cmahnke/lido2html&lt;/code&gt;&lt;/a&gt; verfügbar.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
