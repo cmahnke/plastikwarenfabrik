@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startseite on Klaus-Ingo&#39;s Plastikwarenfabrik</title>
+    <link>https://plastikwarenfabrik.projektemacher.org/</link>
+    <description>Recent content in Startseite on Klaus-Ingo&#39;s Plastikwarenfabrik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <managingEditor>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</managingEditor>
+    <webMaster>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</webMaster>
+    <copyright>Christian Mahnke</copyright>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://plastikwarenfabrik.projektemacher.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Der Streuselhobel</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/post/streuselhobel/</link>
+      <pubDate>Sat, 05 Sep 2026 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/post/streuselhobel/</guid>
+      <description>&lt;h1 id=&#34;der-original-streuselhobel--die-perfektion-für-deinen-mohn-käsekuchen&#34;&gt;Der Original Streuselhobel – Die Perfektion für Deinen Mohn-Käsekuchen&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Kennst Du das auch?&lt;/strong&gt; Du beißt in ein Stück frisch gebackenen Mohn-Käsekuchen, doch anstatt der feinen, cremigen Quarktorte und der saftigen Mohnfüllung spürst Du nur eine trockene, mehlige Wand aus viel zu dicken Streuseln?&lt;/p&gt;
+&lt;p&gt;Zu viele Streusel überdecken nicht nur die feinen Aromen von Mohn und Quark – sie stören auch das Mundgefühl und machen jeden Bissen unnötig trocken.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;warum-zu-viele-streusel-deinen-kuchen-ruinieren&#34;&gt;Warum zu viele Streusel Deinen Kuchen ruinieren:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Geschmacksüberdeckung:&lt;/strong&gt; Eine zu dicke Streuselschicht verdrängt die feine Balance zwischen der Säure des Käsekuchens und der Herbe des Mohns.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ungleichmäßiges Mundgefühl:&lt;/strong&gt; Trockene Teigbrocken dominieren über die samtige Textur der Füllung.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unordentliche Optik:&lt;/strong&gt; Grobe, ungleichmäßige Streusel wirken oft überladen statt appetitlich.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;die-lösung-der-original-streuselhobel&#34;&gt;Die Lösung: Der Original Streuselhobel&lt;/h3&gt;
+&lt;p&gt;Mit dem &lt;strong&gt;Original Streuselhobel&lt;/strong&gt; überlässt Du das Finish Deines Kuchens nicht mehr dem Zufall. Mit nur einem präzisen Zug entfernst Du überflüssige Streusel mühelos und schaffst die perfekte Balance.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Streetview archiver</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/streetview-archiver/</link>
+      <pubDate>Tue, 25 Aug 2026 22:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/vibe-coding/streetview-archiver/</guid>
+      <description>&lt;p&gt;Und noch ein von OX Alpha generiertes Spielzeug. Passend zu dem Blogbeitrag &amp;lsquo;&lt;a href=&#34;https://christianmahnke.de/post/digital-lost-places/&#34; target=&#34;_blank&#34;&gt;Digitale &amp;ldquo;Lost Places&amp;rdquo;&lt;/a&gt;&amp;rsquo; habe ich Ox Alpha gebeten einen einfachen Downloader für Fotos von Google Maps zu laden, sowohl die &amp;ldquo;normalen&amp;rdquo; Straßenansichten als auch die interessanteren Innenansichten.&lt;/p&gt;
+&lt;p&gt;Dazu gibt es auch einen Viewer in dem die Sphären betrachtet werden können. Wie immer ist das Ganze auf &lt;a href=&#34;https://github.com/cmahnke/streetview-archiver&#34; target=&#34;_blank&#34;&gt;Github verfügbar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Der Bereich aus dem Beitrag kann einfach mit dem &lt;code&gt;demo.sh&lt;/code&gt; Script heruntergeladen werden:&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>K8s Volume Explorer</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/k8s-pv-gui/</link>
+      <pubDate>Tue, 25 Aug 2026 19:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/vibe-coding/k8s-pv-gui/</guid>
+      <description>&lt;p&gt;Der Marketing-Stunt &amp;ldquo;&lt;a href=&#34;https://oxalpha.com/&#34; target=&#34;_blank&#34;&gt;Ox Alpha&lt;/a&gt;&amp;rdquo; hat ein neues Spielzeug generiert, um vernünftiger mit Dateien in einem Kubernetes-Cluster arbeiten zu können.&lt;/p&gt;
+&lt;p&gt;Das Tool ist auf &lt;a href=&#34;https://github.com/cmahnke/k8s-pv-gui&#34; target=&#34;_blank&#34;&gt;Github verfügbar&lt;/a&gt;. Es wird keine Garantie übernommen&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Das sagt Gemini dazu:&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;K8s Volume Explorer&lt;/strong&gt; ist ein auf Electron basierender Datei-Manager für Kubernetes-Volumes. Er bietet eine grafische Oberfläche, um Verzeichnisstrukturen von mounted Volumes (&lt;code&gt;PVC&lt;/code&gt;, &lt;code&gt;hostPath&lt;/code&gt;, &lt;code&gt;emptyDir&lt;/code&gt;) laufender Pods zu durchsuchen sowie Dateien per Drag &amp;amp; Drop zu übertragen.&lt;/p&gt;
+&lt;h3 id=&#34;funktionsweise&#34;&gt;Funktionsweise&lt;/h3&gt;
+&lt;p&gt;Das Tool setzt auf eine lokale &lt;code&gt;kubectl&lt;/code&gt;-Installation auf und nutzt vorhandene Konfigurationen (&lt;code&gt;~/.kube/config&lt;/code&gt; oder &lt;code&gt;$KUBECONFIG&lt;/code&gt;).&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>LIDO XML zu HTML Konverter</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/vibe-coding/lido2html/</link>
+      <pubDate>Sat, 23 May 2026 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/vibe-coding/lido2html/</guid>
+      <description>&lt;p&gt;Auch wenn es 2026 gar kein Vibe Coding mehr gibt, hier ist der erste Eintrag in dieser neuen Kategorie.&lt;/p&gt;
+&lt;p&gt;Mit diesem kleinen Werkzeug können Sie LIDO-XML-Dateien, die Sie beispielsweise aus dem Sammlungsportal der Universität Göttingen exportiert haben, in HTML konvertieren. Im nächsten Schritt können die erzeugten Dateien z.B. im &lt;a href=&#34;https://docs.hpc.gwdg.de/services/ai-services/arcana/index.html&#34; target=&#34;_blank&#34;&gt;Arcana/RAG System der GWDG&lt;/a&gt; weiterverarbeitet zu werden.&lt;/p&gt;
+&lt;p&gt;Der Code ist bei GitHub unter &lt;a href=&#34;https://github.com/cmahnke/lido2html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;cmahnke/lido2html&lt;/code&gt;&lt;/a&gt; verfügbar.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Abkürzungsgenerator</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/post/acronym-generator/</link>
+      <pubDate>Mon, 04 May 2026 08:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/post/acronym-generator/</guid>
+      <description>&lt;p&gt;Kein gutes Projekt kann ohne einen Kurz- bzw. Projektnamen auskommen. Er beschreibt das Ziel, ist leicht zu merken und wirkt somit identitätsstiftend für alle Beteiligten.&lt;/p&gt;
+&lt;p&gt;Mit diesem Prompt kann man z.B. Abkürzungen für ein Webseitenprojekt auf Basis von Kubernetes erstellen:&lt;/p&gt;
+&lt;div class=&#34;quote&#34;&gt;
+    
+    &lt;blockquote  class=&#34;quote-body&#34;&gt;
+        &lt;p&gt;Erstelle mehrere Akronyme für ein Webprojekt, bei denen „K“ für Kubernetes steht.
+Die Akronyme sollen gleichzeitig echte Namen aus der griechischen Mythologie sein (z. B. Götter, Titanen, Helden).&lt;/p&gt;
+&lt;p&gt;Bedingungen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fokus auf Web/Website (Begriffe wie Web, Online, Sites, Internet müssen im Akronym vorkommen)&lt;/li&gt;
+&lt;li&gt;Kein Bezug zu AI&lt;/li&gt;
+&lt;li&gt;Für jeden Vorschlag:
+0. Akronym + ausgeschriebene Bedeutung
+0. Kurze Erklärung der mythologischen Figur dahinter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Halte die Vorschläge kurz, klar und möglichst natürlich klingend (keine zu erzwungenen Backronyme).&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Über den Dächern von Prag</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/post/above-the-roofs-of-prague/</link>
+      <pubDate>Sat, 11 Apr 2026 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/post/above-the-roofs-of-prague/</guid>
+      <description>&lt;p&gt;Die Comicfassung eines Selbstporträts über den Dächern von Prag.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Neo MacIntosch</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/post/neo-macintosch/</link>
+      <pubDate>Wed, 01 Apr 2026 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/post/neo-macintosch/</guid>
+      <description>&lt;p&gt;In einer sterilen Megalopolis muss der letzte Highlander sich entscheiden, ob er die digitale Illusion der &amp;ldquo;Agents&amp;rdquo; akzeptiert oder die Realität entfesselt.&lt;/p&gt;
+&lt;p&gt;Mit der Macht des Blitzes fordert er das System heraus, während eine Armee farbenfroher Anzugträger versucht, seine Rebellion im Keim zu ersticken.&lt;/p&gt;
+&lt;p&gt;Es ist der ultimative Kampf zwischen archaischer Freiheit und perfekt designter Kontrolle.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Die Prager Helden</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/post/prague/</link>
+      <pubDate>Tue, 24 Mar 2026 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/post/prague/</guid>
+      <description>&lt;p&gt;Ich war für eine Woche in Prag - eine tolle Stadt!&lt;/p&gt;
+&lt;p&gt;Besonders die Kühlschrankmagneten in den Souvenir Shops. Die bekanntesten Motive hier als AI Slop.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/vibe-cooking/spicy-coconut-shrimp-cale/</link>
+      <pubDate>Tue, 27 Jan 2026 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/vibe-cooking/spicy-coconut-shrimp-cale/</guid>
+      <description>&lt;h2 id=&#34;zutaten&#34;&gt;Zutaten&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;500g Grünkohl:&lt;/strong&gt; Frisch, geputzt und in mundgerechte Streifen geschnitten.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;300g Garnelen:&lt;/strong&gt; Roh, geschält und entdarmt (TK vorher auftauen und trocken tupfen).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;400ml Kokosmilch:&lt;/strong&gt; Vollfett (für die Bindung).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;3 Knoblauchzehen:&lt;/strong&gt; Fein gehackt (ersetzt die Zwiebel-Basis).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 Stück Ingwer (ca. 3cm):&lt;/strong&gt; Fein gerieben.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 Scotch Bonnet oder Habanero:&lt;/strong&gt; Ganz lassen für Aroma, aufschneiden für Hitze.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2 EL Kokosöl:&lt;/strong&gt; Zum Anbraten.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gewürze:&lt;/strong&gt; 1 TL Piment (gemahlen), 1/2 TL Kurkuma, Salz, schwarzer Pfeffer.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Exotische Orient-Pfanne: Honey-Glaze Hack mit Röst-Blumenkohl</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/vibe-cooking/exotische-orient-pfanne/</link>
+      <pubDate>Sat, 03 Jan 2026 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/vibe-cooking/exotische-orient-pfanne/</guid>
+      <description>&lt;p&gt;Dieses Rezept trennt die Garprozesse von Gemüse und Fleisch, um maximale Textur (knusprige Röschen) und Saftigkeit (glasiertes Fleisch) zu garantieren.&lt;/p&gt;
+&lt;h2 id=&#34;zutaten&#34;&gt;Zutaten&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gemüse:&lt;/strong&gt; 1 mittelgroßer Blumenkohl (in mundgerechte Röschen), 2 Süßkartoffeln (2cm Würfel), 3 EL Olivenöl, Salz, 1 TL Kurkuma.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fleisch &amp;amp; Glasur:&lt;/strong&gt; 500g Rinderhack, 1 EL Tomatenmark, 1,5 EL Honig (oder 2 EL Reissirup), Saft von 1/2 Zitrone, 80ml Rinderbrühe.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gewürze:&lt;/strong&gt; 1 TL Kreuzkümmel, 1/2 TL Piment, 1/4 TL Zimt, Salz, Pfeffer.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Gemini macht Ric</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/post/ric/</link>
+      <pubDate>Thu, 20 Nov 2025 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/post/ric/</guid>
+      <description>&lt;p&gt;Offenbar werden auch meine Seiten für das Training von KI Modellen benutzt. Hier Beispiele basierend auf meiner &lt;a href=&#34;https://ric-unknownartist.projektemacher.org/.&#34; target=&#34;_blank&#34;&gt;Seite über Ric / Fritz Neumann&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Die Ergebnisse lassen sich durchaus sehen.&lt;/p&gt;
+&lt;p&gt;Beispiel-Prompt: &lt;strong&gt;Erstelle mir ein Bild eines Vogels im Stil von Ric / Fritz Neumann&lt;/strong&gt;&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/vibe-cooking/ostafrikanisch-inspirierter-h%C3%A4hnchensalat/</link>
+      <pubDate>Wed, 24 Sep 2025 15:33:09 +0200</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/vibe-cooking/ostafrikanisch-inspirierter-h%C3%A4hnchensalat/</guid>
+      <description>&lt;p&gt;Dieser Salat kombiniert gebratenes Hähnchen, geröstete Süßkartoffeln, Karotten und Spargel mit dem herzhaften Geschmack eines Mango-Senf-Dressings, für ein wirklich einzigartiges Geschmackserlebnis.&lt;/p&gt;
+&lt;h2 id=&#34;zutaten-für-4-portionen&#34;&gt;Zutaten für 4 Portionen:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Für das gebratene Hähnchen:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;400 g &lt;strong&gt;Hähnchenbrustfilet&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1 EL Raps- oder Sonnenblumenöl&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1/2 TL Kurkuma&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1/2 TL Kreuzkümmel&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Salz und Pfeffer nach Geschmack&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;für-die-gerösteten-süßkartoffeln--gemüse&#34;&gt;Für die gerösteten Süßkartoffeln &amp;amp; Gemüse:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1 große &lt;strong&gt;Süßkartoffel&lt;/strong&gt;, geschält und gewürfelt (ca. 2 cm Kantenlänge)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2-3 &lt;strong&gt;Karotten&lt;/strong&gt;, geschält und in ca. 1 cm dicke Scheiben oder dickere Stifte geschnitten&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Willkommen auf dem Information Superhighway!</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/post/first/</link>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 +0100</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/post/first/</guid>
+      <description>&lt;p&gt;Hallo liebe Netizens!&lt;/p&gt;
+&lt;p&gt;Es ist mir eine große Ehre, euch auf der brandneuen Homepage von &lt;strong&gt;Klaus-Ingo&amp;rsquo;s Plastikwarenfabrik&lt;/strong&gt; begrüßen zu dürfen. Wir sind jetzt endlich &amp;ldquo;online&amp;rdquo;!&lt;/p&gt;
+&lt;p&gt;Hier gibt&amp;rsquo;s den jeweils neuesten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI-Slop aus verschiedenen Kategorien&lt;/li&gt;
+&lt;li&gt;Generierte Inhalte wie Bilder oder Texte&lt;/li&gt;
+&lt;li&gt;Eine (teilweise) Vibe-gekodete Homepage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Diese Seite ist noch &lt;strong&gt;Under Construction&lt;/strong&gt;, also bitte verzeiht, wenn mal ein Link nicht geht. Ich arbeite hart daran, den HTML-Code zu optimieren.&lt;/p&gt;
+&lt;p&gt;Euer Webmaster,
+Klaus-Ingo&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Datenschutzerklärung</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/privacy/</guid>
+      <description>&lt;h2 id=&#34;hosting&#34;&gt;Hosting&lt;/h2&gt;
+&lt;p&gt;Der Hoster erhebt in sog. Logfiles folgende Daten, die Ihr Browser übermittelt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IP-Adresse&lt;/li&gt;
+&lt;li&gt;Die Adresse der vorher besuchten Website (Referer [sic!] Anfrage-Header)&lt;/li&gt;
+&lt;li&gt;Datum und Uhrzeit der Anfrage&lt;/li&gt;
+&lt;li&gt;Zeitzonendifferenz zur Greenwich Mean Time&lt;/li&gt;
+&lt;li&gt;Inhalt der Anforderung&lt;/li&gt;
+&lt;li&gt;HTTP-Statuscode&lt;/li&gt;
+&lt;li&gt;Übertragene Datenmenge&lt;/li&gt;
+&lt;li&gt;Website, von der die Anforderung kommt&lt;/li&gt;
+&lt;li&gt;Informationen zu Browser und Betriebssystem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Das ist erforderlich, um die Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten. Dies entspricht berechtigtem Interesse im Sinne des &lt;a href=&#34;https://dsgvo-gesetz.de/art-6-dsgvo/&#34; target=&#34;_blank&#34;&gt;Art. 6 Abs. 1 S. 1 lit. f DSGVO&lt;/a&gt;.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Linked Art</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/meta/linked-art/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/meta/linked-art/index.json</guid>
+      <description></description>
+      </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/meta/_index.en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/meta/_index.en/</guid>
+      <description>&lt;p&gt;This page provides some statistical analyses and data about the posts as JSON files&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./tags/index.json&#34;&gt;Tags&lt;/a&gt; of the blog&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./wikidata/index.json&#34;&gt;Wikidata URIs&lt;/a&gt; for posts in the blog&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/meta/posts/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/meta/posts/index.json</guid>
+      <description></description>
+      </item>
+    
+    <item>
+      <title>Schema.org</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/meta/schema.org/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/meta/schema.org/index.json</guid>
+      <description></description>
+      </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/meta/tags/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/meta/tags/index.json</guid>
+      <description></description>
+      </item>
+    
+    <item>
+      <title>Wikidata</title>
+      <link>https://plastikwarenfabrik.projektemacher.org/meta/wikidata/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@christianmahnke.de (Klaus-Ingo Projektemacher)</author>
+      <guid>https://plastikwarenfabrik.projektemacher.org/meta/wikidata/index.json</guid>
+      <description></description>
+      </item>
+    
+  </channel>
+</rss>
