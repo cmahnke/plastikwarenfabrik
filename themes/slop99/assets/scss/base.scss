@@ -437,6 +437,32 @@ hr {
     }
 }
 
+.download-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+
+    .download-item {
+      margin: 10px;
+      text-align: center;
+      width: 29%;
+
+      .download-icon {
+        box-sizing: border-box;
+        width: 96px;
+        height: 96px;
+        image-rendering: pixelated;
+        border: 2px solid $white;
+
+        &:hover {
+          border-color: $yellow;
+          cursor: pointer;
+        }
+      }
+    }
+}
+
 .list {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,27 @@
+{{ $downloads := where .Resources "MediaType.MainType" "!=" "image" }}
+{{ with $downloads }}
+<h3 align="center">{{ i18n "downloads" }}</h3>
+
+<div class="download-container table">
+  {{ range . }}
+    {{- $name := .Name -}}
+    {{- $ext := path.Ext $name | strings.TrimPrefix "." | lower -}}
+    {{- $iconMap := dict
+      "stl" "stl.png"
+      "obj" "3d.png" "3mf" "3d.png" "step" "3d.png" "stp" "3d.png"
+      "pdf" "pdf.png"
+      "zip" "zip.png" "tar" "zip.png" "gz" "zip.png" "tgz" "zip.png" "7z" "zip.png" "rar" "zip.png"
+      "txt" "txt.png" "md" "txt.png" "csv" "txt.png" -}}
+    {{- $icon := index $iconMap $ext | default "generic.png" -}}
+    <div class="gallery-item td download-item">
+      <a href="{{ .RelPermalink }}" download="{{ $name }}" title="{{ $name }}">
+        <img class="download-icon" src="{{ printf "/images/icons/%s" $icon | relURL }}" alt="{{ $ext }} file icon" loading="lazy" width="96" height="96">
+      </a>
+      <br>
+      <font size="-1" color="#00FFFF">{{ $name }}</font>
+      <br>
+      <font size="-2" color="#FFFF00">[{{ $ext | upper }}]</font>
+    </div>
+  {{- end }}
+</div>
+{{ end }}

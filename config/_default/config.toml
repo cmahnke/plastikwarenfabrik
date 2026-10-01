@@ -17,6 +17,10 @@
   email = 'mail@christianmahnke.de'
   name = 'Klaus-Ingo Projektemacher'
 
+[mediaTypes]
+  [mediaTypes."model/stl"]
+    suffixes = ["stl"]
+
 # [params.preview]
 #   outputPrefix = "ogPreview"
 #   outputSuffix = ".png"

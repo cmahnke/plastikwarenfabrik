@@ -4,6 +4,8 @@ written_by_webmaster:
   other: "Verfasst von Webmaster Klaus-Ingo"
 image_gallery:
   other: "+++ BILDER-GALERIE +++"
+downloads:
+  other: "+++ DOWNLOADS +++"
 back_to_home:
   other: "Zurück zur Startseite"
 written_on:
