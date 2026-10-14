@@ -10,6 +10,7 @@
   wikidata = false
   debug = true
   headerimage = false
+  schemaPerson = "https://christianmahnke.de/person.jsonld"
 
   marquee = "+++ WILLKOMMEN BEI KLAUS-INGO'S PLASTIKWARENFABRIK +++ QUALITÄTS SLOP SEIT 1999 +++ WIR FORMEN DIE ZUKUNFT +++"
 
