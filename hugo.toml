@@ -9,7 +9,6 @@ canonifyurls = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 enableGitInfo = true
-preserveTaxonomyNames = true
 enableRobotsTXT = true
 timeout = "120s"
 
@@ -83,11 +82,6 @@ timeout = "120s"
 
 [imaging]
   quality = 95
-
-[privacy]
-  [privacy.instagram]
-    disable = false
-    simple = false
 
 [sitemap]
   changeFreq = 'weekly'
