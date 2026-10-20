@@ -33,3 +33,8 @@ node_modules/
 archetypes/
 docs/
 static/fonts/
+/package-lock.json
+
+/npm-shrinkwrap.json
+
+/yarn.lock
