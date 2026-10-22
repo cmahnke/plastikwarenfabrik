@@ -1,6 +1,6 @@
 baseURL = 'https://plastikwarenfabrik.projektemacher.org/'
 locale = "de"
-defaultcontentlanguage = "de"
+defaultContentLanguage = "de"
 copyright = "Christian Mahnke"
 title = "Klaus-Ingo's Plastikwarenfabrik"
 theme = ["slop99", "projektemacher-base"]

@@ -1,7 +1,8 @@
 ---
 title: Links
-metaPage: true
-sidebar: true
+params:
+  metaPage: true
+  sidebar: true
 ---
 
 
