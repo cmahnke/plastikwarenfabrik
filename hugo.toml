@@ -81,7 +81,10 @@ timeout = "120s"
   noClasses = false
 
 [imaging]
-  quality = 95
+  [imaging.jpeg]
+    quality = 95
+  [imaging.webp]
+    quality = 95
 
 [sitemap]
   changeFreq = 'weekly'
