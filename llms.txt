@@ -1,0 +1,52 @@
+# Klaus-Ingo's Plastikwarenfabrik
+
+> Feinster AI Slop
+
+## Author
+
+Klaus-Ingo Projektemacher
+- [Vibe Coding](https://plastikwarenfabrik.projektemacher.org/vibe-coding/): 
+- [Vibe Cooking](https://plastikwarenfabrik.projektemacher.org/vibe-cooking/): 
+- [Beiträge](https://plastikwarenfabrik.projektemacher.org/post/): 
+- [Links](https://plastikwarenfabrik.projektemacher.org/links/): 
+- [Über](https://plastikwarenfabrik.projektemacher.org/about/): 
+
+## Vibe Coding
+
+
+
+- [Streetview archiver](https://plastikwarenfabrik.projektemacher.org/vibe-coding/streetview-archiver/)
+- [K8s Volume Explorer](https://plastikwarenfabrik.projektemacher.org/vibe-coding/k8s-pv-gui/)
+- [LIDO XML zu HTML Konverter](https://plastikwarenfabrik.projektemacher.org/vibe-coding/lido2html/)
+
+## Vibe Cooking
+
+
+
+- [Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing](https://plastikwarenfabrik.projektemacher.org/vibe-cooking/spicy-coconut-shrimp-cale/)
+- [Exotische Orient-Pfanne: Honey-Glaze Hack mit Röst-Blumenkohl](https://plastikwarenfabrik.projektemacher.org/vibe-cooking/exotische-orient-pfanne/)
+- [Ostafrikanisch inspirierter Hähnchensalat mit Mango-Senf-Dressing](https://plastikwarenfabrik.projektemacher.org/vibe-cooking/ostafrikanisch-inspirierter-h%C3%A4hnchensalat/)
+
+## Beiträge
+
+
+
+- [Der Streuselhobel als 3D Druck](https://plastikwarenfabrik.projektemacher.org/post/streuselhobel-3d-print/)
+- [Der Streuselhobel](https://plastikwarenfabrik.projektemacher.org/post/streuselhobel/)
+- [Abkürzungsgenerator](https://plastikwarenfabrik.projektemacher.org/post/acronym-generator/)
+- [Über den Dächern von Prag](https://plastikwarenfabrik.projektemacher.org/post/above-the-roofs-of-prague/)
+- [Neo MacIntosch](https://plastikwarenfabrik.projektemacher.org/post/neo-macintosch/)
+- [Die Prager Helden](https://plastikwarenfabrik.projektemacher.org/post/prague/)
+- [Gemini macht Ric](https://plastikwarenfabrik.projektemacher.org/post/ric/)
+- [Willkommen auf dem Information Superhighway!](https://plastikwarenfabrik.projektemacher.org/post/first/)
+
+## Links
+
+
+
+
+## Über
+
+
+
+
