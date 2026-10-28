@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "hdr-canvas": "^0.2.0",
+    "cursor-effects": "^1.0.18"
+  },
+  "devDependencies": {
+    "gulp-cli": "^3.1.0"
+  },
+  "scripts": {
+    "lint-scss": "stylelint 'assets/scss/*'",
+    "lint-js": "eslint 'assets/js/*'",
+    "lint-toml": "eslint i18n",
+    "typecheck": "tsc --noEmit",
+    "lint": "npm run lint-scss && npm run lint-js && npm run lint-toml",
+    "check-generated-css": "stylelint --config ./themes/projektemacher-base/.stylelintrc-postbuild.yaml 'docs/css/*.css'",
+    "postbuild-lint": "npm run check-generated-css",
+    "check:a11y": "node themes/projektemacher-base/scripts/check-a11y.mjs",
+    "check:lighthouse": "node themes/projektemacher-base/scripts/check-lighthouse.mjs",
+    "validate-iiif-gnu": "find docs -name manifest.json -print0 | xargs -r -0 -n1 npx eslint -c themes/projektemacher-base/eslint.config.mjs",
+    "validate-gjson-gnu": "find docs -name '*.gjson' -o -name '*.geojson' -print0 | xargs -r -0 -n1 npx eslint -c themes/projektemacher-base/eslint.config.mjs",
+    "validate-iiif-bsd": "find docs -name manifest.json -print0 | xargs -0 -n1 npx eslint -c themes/projektemacher-base/eslint.config.mjs",
+    "validate-gjson-bsd": "find docs -name '*.gjson' -o -name '*.geojson' -print0 | xargs -0 -n1 npx eslint -c themes/projektemacher-base/eslint.config.mjs",
+    "validate-iiif": "case $OSTYPE in darwin*) npm run validate-iiif-bsd ;; linux*) npm run validate-iiif-gnu ;; bsd*) npm run validate-iiif-bsd ;; *)  exit 100 ;; esac",
+    "validate-gjson": "case $OSTYPE in darwin*) npm run validate-gjson-bsd ;; linux*) npm run validate-gjson-gnu ;; bsd*) npm run validate-gjson-bsd ;; *)  exit 100 ;; esac",
+    "validate": "npm run validate-iiif && npm run validate-gjson"
+  },
+  "overrides": {
+    "canvas": "npm:dry-uninstall"
+  },
+  "resolutions": {
+    "canvas": "npm:empty-npm-package"
+  }
+}
