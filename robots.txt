@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /privacy/
+
+Disallow: /meta/_index.en/
+
+
+Disallow: /*.bib$
+
+Disallow: /*.json$
+
+Disallow: /*.xml$
+
+Sitemap: https://plastikwarenfabrik.projektemacher.org/sitemap.xml
+
+
+llms-txt: https://plastikwarenfabrik.projektemacher.org/llms.txt
